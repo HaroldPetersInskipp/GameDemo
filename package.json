@@ -2,7 +2,16 @@
     "name": "CardGame",
     "description": "TripleTriad",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-cycle": "0.1.4",
+        "node-red-contrib-fan": "1.0.2",
+        "node-red-contrib-looptimer-advanced": "0.0.3",
+        "node-red-contrib-play-audio": "2.5.0",
+        "node-red-contrib-random-item": "1.0.3",
+        "node-red-contrib-string": "1.0.0",
+        "node-red-contrib-toggle": "0.1.1",
+        "node-red-dashboard": "2.29.3"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
