@@ -14,8 +14,8 @@ var server = http.createServer(app);
 // Create the settings object - see default settings.js file for other options
 var settings = {
     httpAdminRoot:"/red",
-    httpNodeRoot: "/",
-    userDir:"/home/pi/.node-red/projects/CardGame",
+    httpNodeRoot: "/api",
+    userDir:"C:/Users/Bannd/Downloads/CurrentProjects/RaspberryPi/GameDemo",
 	uiHost: "/ui",
 	httpStatic: "/static",
     functionGlobalContext: { },    // enables global context
