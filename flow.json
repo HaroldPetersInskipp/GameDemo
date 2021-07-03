@@ -7,6 +7,104 @@
         "info": ""
     },
     {
+        "id": "5e14fc72.c4e08c",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#820003",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#820003",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#820003",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#ce0005",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#820003",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
         "id": "c87d751.00c7f88",
         "type": "ui_group",
         "name": "Triple Triad",
@@ -25,122 +123,25 @@
         "hidden": false
     },
     {
-        "id": "5e14fc72.c4e08c",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-light",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#0094CE",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#0094CE",
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#1bbfff",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "widget-textColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#0094ce",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
-        },
-        "site": {
-            "name": "Node-RED Dashboard",
-            "hideToolbar": "false",
-            "allowSwipe": "false",
-            "lockMenu": "false",
-            "allowTempTheme": "true",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 0,
-                "py": 0
-            }
-        }
-    },
-    {
-        "id": "23a1df7f.92f59",
+        "id": "95ba00f3.b7cd4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
-        "order": 2,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "424d0ce7.252a6c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c87d751.00c7f88",
-        "order": 5,
+        "order": 1,
         "width": 1,
         "height": 1
     },
     {
-        "id": "e1c47780.c5ba6",
+        "id": "4d67838b.0eae0c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "18d56a01.7238be",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
@@ -149,34 +150,34 @@
         "height": 1
     },
     {
-        "id": "67dea68e.149e98",
+        "id": "871323.27ba34e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 9,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "c47c26ed.841b08",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c87d751.00c7f88",
-        "order": 11,
         "width": 1,
         "height": 1
     },
     {
-        "id": "aa32527a.7efa1",
+        "id": "e63294af.2d4938",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
-        "order": 13,
-        "width": 2,
+        "order": 10,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "570f77c1.ebb6f",
+        "id": "35b4c3b5.c0a694",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d68e9203.8a6f88",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
@@ -185,16 +186,7 @@
         "height": 1
     },
     {
-        "id": "6e892886.61c498",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c87d751.00c7f88",
-        "order": 15,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "f8568e73.866338",
+        "id": "6e78bc5f.7303fc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
@@ -203,16 +195,16 @@
         "height": 1
     },
     {
-        "id": "4a15f0da.c8a638",
+        "id": "9d728791.1a8fe",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 17,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "aa437173.43e1",
+        "id": "40747a2a.744dc4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
@@ -221,16 +213,16 @@
         "height": 1
     },
     {
-        "id": "c502b09f.e3f348",
+        "id": "5af78f49.0834d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 19,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "f3a1bf1a.c8b4c8",
+        "id": "4d956609.530888",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
@@ -239,16 +231,16 @@
         "height": 1
     },
     {
-        "id": "10514b6.f61c1b5",
+        "id": "cf11f9ad.00444",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 21,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "81517c69.e20f68",
+        "id": "7dbb8f2b.d9f6c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
@@ -257,16 +249,16 @@
         "height": 1
     },
     {
-        "id": "260f80ff.c9185",
+        "id": "e3b132ec.c64e68",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 23,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "61090e86.3ca6c8",
+        "id": "10fdcf19.d00f21",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
@@ -275,16 +267,16 @@
         "height": 1
     },
     {
-        "id": "bb22e8e4.27a448",
+        "id": "b5d36f91.59ce4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 25,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "9bbe9e60.33514",
+        "id": "3764f453.9678ac",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
@@ -293,16 +285,16 @@
         "height": 1
     },
     {
-        "id": "346c6730.71b9f",
+        "id": "c655236d.715b88",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 27,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "86fcd958.bc3028",
+        "id": "fb335e10.eafbc8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
@@ -311,16 +303,16 @@
         "height": 1
     },
     {
-        "id": "ab614ece.5bdd18",
+        "id": "ae8cb1e6.cf33e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 29,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "e133f525.326eb",
+        "id": "be662cac.f0219",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
@@ -329,16 +321,16 @@
         "height": 1
     },
     {
-        "id": "90b0ca44.30f88",
+        "id": "3e84e2e.dbe549e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 31,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "41e359f8.8c2d5",
+        "id": "ed665043.140978",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
@@ -347,16 +339,16 @@
         "height": 1
     },
     {
-        "id": "8f35bc40.582848",
+        "id": "d137f6ad.e18628",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 33,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "31294a3e.cdca6e",
+        "id": "598bacc.5c299d4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
@@ -365,16 +357,16 @@
         "height": 1
     },
     {
-        "id": "36a3880.0091078",
+        "id": "ecfb3812.8c566",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 35,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "6cfe047f.e888ac",
+        "id": "c79f279b.be44e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
@@ -383,16 +375,16 @@
         "height": 1
     },
     {
-        "id": "22b5fbba.11cc44",
+        "id": "e20384d4.8950a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 37,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "f4a0fbeb.9c6908",
+        "id": "e98300de.476628",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
@@ -401,16 +393,16 @@
         "height": 1
     },
     {
-        "id": "b1b348af.e144e8",
+        "id": "6c67d186.1f463",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 39,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "c22c28d4.d90c8",
+        "id": "d1105016.f00d",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
@@ -419,57 +411,327 @@
         "height": 1
     },
     {
-        "id": "34fe659a.bc2d92",
+        "id": "2c2ba336.70f2d4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 41,
-        "width": 3,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "98107a08.c3373",
+        "id": "641f7434.4deadc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 42,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a26aa127.cf2c1",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 43,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "1d135135.90f3a7",
+        "id": "2e0fbb18.adaf74",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 44,
-        "width": 9,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "8030e206.d47a",
+        "id": "1cd55fea.0c889",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 45,
-        "width": 8,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "c829125b.0bcda8",
+        "id": "5d0c6982.58c8c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 46,
-        "width": 9,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "477e0c57.3f3bac",
+        "id": "15a9173c.611369",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c87d751.00c7f88",
         "order": 47,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f8fbfdb6.2b9e28",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 48,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "459c4d73.6a43e4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 49,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "68592ab.b53ab54",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 50,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "18f936f5.0011e1",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 51,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "652fc032.db08",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 52,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a1a1bc51.93d908",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 53,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "343d1bb2.82a81c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 54,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "773a6f07.7b6318",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 55,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5bd6d07d.1a753",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 56,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "69bc989e.c5c398",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 57,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cba360e3.89b76",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 58,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "753247da.952ec8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 59,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "38daf1c2.03d90e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 61,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c5c5b571.518038",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 62,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "2cf239bb.8405ee",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 63,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "f854c49.94ec238",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 64,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "26741c76.3c0cc4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 65,
         "width": 7,
+        "height": 1
+    },
+    {
+        "id": "b7ee05bc.7f5938",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 67,
+        "width": 14,
+        "height": 1
+    },
+    {
+        "id": "c625831a.7ba36",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 69,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "6e44c4b1.4c278c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 70,
+        "width": 14,
+        "height": 1
+    },
+    {
+        "id": "f8969ab4.575768",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 71,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "237e719b.d47d0e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 72,
+        "width": 14,
+        "height": 1
+    },
+    {
+        "id": "923deec0.0aca5",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 73,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "8681cb63.ea463",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 74,
+        "width": 14,
+        "height": 1
+    },
+    {
+        "id": "969b32c1.7aff28",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 75,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "c3af081a.179b1",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 76,
+        "width": 14,
+        "height": 1
+    },
+    {
+        "id": "505ab9b7.0c99b8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 77,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "6261681b.593af8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 78,
+        "width": 14,
+        "height": 1
+    },
+    {
+        "id": "73e0b286.8361f4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c87d751.00c7f88",
+        "order": 79,
+        "width": 12,
         "height": 1
     },
     {
@@ -478,7 +740,7 @@
         "z": "96bdce62.9d062",
         "group": "c87d751.00c7f88",
         "name": "board",
-        "order": 10,
+        "order": 13,
         "width": 15,
         "height": 15,
         "format": "",
@@ -491,25 +753,6 @@
         "wires": [
             [
                 "ed830062.76e98"
-            ]
-        ]
-    },
-    {
-        "id": "4d4dc790.454ff8",
-        "type": "template",
-        "z": "96bdce62.9d062",
-        "name": "",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<style>\n    .mat\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n      width: 768px;\n      height: 768px;\n      max-width: 100%;\n      border-style: solid;\n      border-color: black;\n    }\n    .playercolor1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .playercolor2\n    {\n      position: absolute;\n      top: 0px;\n      left: 256px;\n    }\n    .playercolor3\n    {\n      position: absolute;\n      top: 0px;\n      left: 512px;\n    }\n    .playercolor4\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .playercolor5\n    {\n      position: absolute;\n      top: 256px;\n      left: 256px;\n    }\n    .playercolor6\n    {\n      position: absolute;\n      top: 256px;\n      left: 512px;\n    }\n    .playercolor7\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .playercolor8\n    {\n      position: absolute;\n      top: 512px;\n      left: 256px;\n    }\n    .playercolor9\n    {\n      position: absolute;\n      top: 512px;\n      left: 512px;\n    }\n    .card1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .card2\n    {\n      position: absolute;\n      top: 0px;\n      left: 256px;\n    }\n    .card3\n    {\n      position: absolute;\n      top: 0px;\n      left: 512px;\n    }\n    .card4\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .card5\n    {\n      position: absolute;\n      top: 256px;\n      left: 256px;\n    }\n    .card6\n    {\n      position: absolute;\n      top: 256px;\n      left: 512px;\n    }\n    .card7\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .card8\n    {\n      position: absolute;\n      top: 512px;\n      left: 256px;\n    }\n    .card9\n    {\n      position: absolute;\n      top: 512px;\n      left: 512px;\n    }\n    .ele1\n    {\n      position: absolute;\n      top: 10px;\n      left: 180px;\n    }\n    .ele2\n    {\n      position: absolute;\n      top: 10px;\n      left: 436px;\n    }\n    .ele3\n    {\n      position: absolute;\n      top: 10px;\n      left: 692px;\n    }\n    .ele4\n    {\n      position: absolute;\n      top: 266px;\n      left: 180px;\n    }\n    .ele5\n    {\n      position: absolute;\n      top: 266px;\n      left: 436px;\n    }\n    .ele6\n    {\n      position: absolute;\n      top: 266px;\n      left: 692px;\n    }\n    .ele7\n    {\n      position: absolute;\n      top: 522px;\n      left: 180px;\n    }\n    .ele8\n    {\n      position: absolute;\n      top: 522px;\n      left: 436px;\n    }\n    .ele9\n    {\n      position: absolute;\n      top: 522px;\n      left: 692px;\n    }\n    .card1num1\n    {\n      position: absolute;\n      top: 16px;\n      left: 32px;\n    }\n    .card1num2\n    {\n      position: absolute;\n      top: 48px;\n      left: 48px;\n    }\n    .card1num3\n    {\n      position: absolute;\n      top: 80px;\n      left: 32px;\n    }\n    .card1num4\n    {\n      position: absolute;\n      top: 48px;\n      left: 16px;\n    }\n    .card2num1\n    {\n      position: absolute;\n      top: 16px;\n      left: 288px;\n    }\n    .card2num2\n    {\n      position: absolute;\n      top: 48px;\n      left: 304px;\n    }\n    .card2num3\n    {\n      position: absolute;\n      top: 80px;\n      left: 288px;\n    }\n    .card2num4\n    {\n      position: absolute;\n      top: 48px;\n      left: 272px;\n    }\n    .card3num1\n    {\n      position: absolute;\n      top: 16px;\n      left: 544px;\n    }\n    .card3num2\n    {\n      position: absolute;\n      top: 48px;\n      left: 560px;\n    }\n    .card3num3\n    {\n      position: absolute;\n      top: 80px;\n      left: 544px;\n    }\n    .card3num4\n    {\n      position: absolute;\n      top: 48px;\n      left: 528px;\n    }\n    .card4num1\n    {\n      position: absolute;\n      top: 272px;\n      left: 32px;\n    }\n    .card4num2\n    {\n      position: absolute;\n      top: 304px;\n      left: 48px;\n    }\n    .card4num3\n    {\n      position: absolute;\n      top: 336px;\n      left: 32px;\n    }\n    .card4num4\n    {\n      position: absolute;\n      top: 304px;\n      left: 16px;\n    }\n    .card5num1\n    {\n      position: absolute;\n      top: 272px;\n      left: 288px;\n    }\n    .card5num2\n    {\n      position: absolute;\n      top: 304px;\n      left: 304px;\n    }\n    .card5num3\n    {\n      position: absolute;\n      top: 336px;\n      left: 288px;\n    }\n    .card5num4\n    {\n      position: absolute;\n      top: 304px;\n      left: 272px;\n    }\n    .card6num1\n    {\n      position: absolute;\n      top: 272px;\n      left: 544px;\n    }\n    .card6num2\n    {\n      position: absolute;\n      top: 304px;\n      left: 560px;\n    }\n    .card6num3\n    {\n      position: absolute;\n      top: 336px;\n      left: 544px;\n    }\n    .card6num4\n    {\n      position: absolute;\n      top: 304px;\n      left: 528px;\n    }\n    \n    \n    .card7num1\n    {\n      position: absolute;\n      top: 528px;\n      left: 32px;\n    }\n    .card7num2\n    {\n      position: absolute;\n      top: 560px;\n      left: 48px;\n    }\n    .card7num3\n    {\n      position: absolute;\n      top: 592px;\n      left: 32px;\n    }\n    .card7num4\n    {\n      position: absolute;\n      top: 560px;\n      left: 16px;\n    }\n    .card8num1\n    {\n      position: absolute;\n      top: 528px;\n      left: 288px;\n    }\n    .card8num2\n    {\n      position: absolute;\n      top: 560px;\n      left: 304px;\n    }\n    .card8num3\n    {\n      position: absolute;\n      top: 592px;\n      left: 288px;\n    }\n    .card8num4\n    {\n      position: absolute;\n      top: 560px;\n      left: 272px;\n    }\n    .card9num1\n    {\n      position: absolute;\n      top: 528px;\n      left: 544px;\n    }\n    .card9num2\n    {\n      position: absolute;\n      top: 560px;\n      left: 560px;\n    }\n    .card9num3\n    {\n      position: absolute;\n      top: 592px;\n      left: 544px;\n    }\n    .card9num4\n    {\n      position: absolute;\n      top: 560px;\n      left: 528px;\n    }\n    .mod1\n    {\n      position: absolute;\n      top: 96px;\n      left: 96px;\n      opacity: 65%;\n    }\n    .mod2\n    {\n      position: absolute;\n      top: 96px;\n      left: 352px;\n      opacity: 65%;\n    }\n    .mod3\n    {\n      position: absolute;\n      top: 96px;\n      left: 608px;\n      opacity: 65%;\n    }\n    .mod4\n    {\n      position: absolute;\n      top: 352px;\n      left: 96px;\n      opacity: 65%;\n    }\n    .mod5\n    {\n      position: absolute;\n      top: 352px;\n      left: 352px;\n      opacity: 65%;\n    }\n    .mod6\n    {\n      position: absolute;\n      top: 352px;\n      left: 608px;\n      opacity: 65%;\n    }\n    .mod7\n    {\n      position: absolute;\n      top: 608px;\n      left: 96px;\n      opacity: 65%;\n    }\n    .mod8\n    {\n      position: absolute;\n      top: 608px;\n      left: 352px;\n      opacity: 65%;\n    }\n    .mod9\n    {\n      position: absolute;\n      top: 608px;\n      left: 608px;\n      opacity: 65%;\n    }\n    .boardoverlay1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n      z-index: 1;\n    }\n    .boardoverlay2\n    {\n      position: absolute;\n      top: 0px;\n      left: 256px;\n      z-index: 1;\n    }\n    .boardoverlay3\n    {\n      position: absolute;\n      top: 0px;\n      left: 512px;\n      z-index: 1;\n    }\n    .boardoverlay4\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n      z-index: 1;\n    }\n    .boardoverlay5\n    {\n      position: absolute;\n      top: 256px;\n      left: 256px;\n      z-index: 1;\n    }\n    .boardoverlay6\n    {\n      position: absolute;\n      top: 256px;\n      left: 512px;\n      z-index: 1;\n    }\n    .boardoverlay7\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n      z-index: 1;\n    }\n    .boardoverlay8\n    {\n      position: absolute;\n      top: 512px;\n      left: 256px;\n      z-index: 1;\n    }\n    .boardoverlay9\n    {\n      position: absolute;\n      top: 512px;\n      left: 512px;\n      z-index: 1;\n    }\n    .banners\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n      max-width: 100%;\n    }\n</style>\n<div class=\"board\">\n\n<img class=\"mat\" src=\"http://10.0.0.111/Images/FF8/board/mat.png\" width=\"768\" height=\"768\">\n\n<img class=\"playercolor1\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color1}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor2\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color2}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor3\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color3}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor4\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color4}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor5\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color5}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor6\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color6}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor7\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color7}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor8\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color8}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor9\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color9}}.png\" width=\"256\" height=\"256\">\n\n<img class=\"card1\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card1}}.png\" width=\"256\" height=\"256\">\n<img class=\"card2\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card2}}.png\" width=\"256\" height=\"256\">\n<img class=\"card3\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card3}}.png\" width=\"256\" height=\"256\">\n<img class=\"card4\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card4}}.png\" width=\"256\" height=\"256\">\n<img class=\"card5\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card5}}.png\" width=\"256\" height=\"256\">\n<img class=\"card6\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card6}}.png\" width=\"256\" height=\"256\">\n<img class=\"card7\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card7}}.png\" width=\"256\" height=\"256\">\n<img class=\"card8\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card8}}.png\" width=\"256\" height=\"256\">\n<img class=\"card9\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card9}}.png\" width=\"256\" height=\"256\">\n\n<img class=\"ele1\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele1}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele2\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele2}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele3\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele3}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele4\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele4}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele5\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele5}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele6\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele6}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele7\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele7}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele8\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele8}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele9\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele9}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card1num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card1num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card1num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card1num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card1num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card1num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card1num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card1num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card2num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card2num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card2num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card2num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card2num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card2num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card2num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card2num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card3num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card3num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card3num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card3num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card3num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card3num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card3num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card3num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card4num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card4num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card4num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card4num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card4num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card4num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card4num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card4num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card5num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card5num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card5num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card5num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card5num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card5num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card5num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card5num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card6num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card6num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card6num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card6num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card6num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card6num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card6num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card6num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card7num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card7num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card7num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card7num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card7num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card7num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card7num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card7num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card8num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card8num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card8num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card8num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card8num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card8num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card8num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card8num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card9num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card9num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card9num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card9num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card9num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card9num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card9num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card9num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"mod1\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{mod1}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod2\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{mod2}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod3\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{mod3}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod4\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{mod3}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod5\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{mod4}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod6\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{mod5}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod7\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{mod6}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod8\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{mod7}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod9\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{mod8}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"banners\" src=\"http://10.0.0.111/Images/FF8/banners/{{banner}}.png\">\n\n\n\n<img class=\"boardoverlay1\" ng-click=\"send({payload: '1',topic: 'click'})\" ng-mouseover=\"send({payload: '1',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay2\" ng-click=\"send({payload: '2',topic: 'click'})\" ng-mouseover=\"send({payload: '2',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay3\" ng-click=\"send({payload: '3',topic: 'click'})\" ng-mouseover=\"send({payload: '3',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay4\" ng-click=\"send({payload: '4',topic: 'click'})\" ng-mouseover=\"send({payload: '4',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay5\" ng-click=\"send({payload: '5',topic: 'click'})\" ng-mouseover=\"send({payload: '5',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay6\" ng-click=\"send({payload: '6',topic: 'click'})\" ng-mouseover=\"send({payload: '6',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay7\" ng-click=\"send({payload: '7',topic: 'click'})\" ng-mouseover=\"send({payload: '7',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay8\" ng-click=\"send({payload: '8',topic: 'click'})\" ng-mouseover=\"send({payload: '8',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay9\" ng-click=\"send({payload: '9',topic: 'click'})\" ng-mouseover=\"send({payload: '9',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n\n\n\n</div>",
-        "output": "str",
-        "x": 1120,
-        "y": 820,
-        "wires": [
-            [
-                "d8f6c9d8.8daf98"
             ]
         ]
     },
@@ -1040,7 +1283,7 @@
         "y": 820,
         "wires": [
             [
-                "4d4dc790.454ff8"
+                "37e2fb1f.69678c"
             ]
         ]
     },
@@ -1312,7 +1555,7 @@
         "z": "96bdce62.9d062",
         "group": "c87d751.00c7f88",
         "name": "player 1",
-        "order": 8,
+        "order": 11,
         "width": 6,
         "height": 16,
         "format": "",
@@ -1334,7 +1577,7 @@
         "z": "96bdce62.9d062",
         "group": "c87d751.00c7f88",
         "name": "player 2",
-        "order": 12,
+        "order": 15,
         "width": 6,
         "height": 16,
         "format": "",
@@ -1347,25 +1590,6 @@
         "wires": [
             [
                 "d1f6568.d08b3a8"
-            ]
-        ]
-    },
-    {
-        "id": "2fbd10b6.053ff8",
-        "type": "template",
-        "z": "96bdce62.9d062",
-        "name": "",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<style>\n    .p1playercolor1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .p1playercolor2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n    }\n    .p1playercolor3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .p1playercolor4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n    }\n    .p1playercolor5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .p1card1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .p1card2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n    }\n    .p1card3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .p1card4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n    }\n    .p1card5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .p1ele1\n    {\n      position: absolute;\n      top: 10px;\n      left: 180px;\n    }\n    .p1ele2\n    {\n      position: absolute;\n      top: 138px;\n      left: 180px;\n    }\n    .p1ele3\n    {\n      position: absolute;\n      top: 266px;\n      left: 180px;\n    }\n    .p1ele4\n    {\n      position: absolute;\n      top: 394px;\n      left: 180px;\n    }\n    .p1ele5\n    {\n      position: absolute;\n      top: 522px;\n      left: 180px;\n    }\n    .p1card1num1\n    {\n      position: absolute;\n      top: 16px;\n      left: 32px;\n    }\n    .p1card1num2\n    {\n      position: absolute;\n      top: 48px;\n      left: 48px;\n    }\n    .p1card1num3\n    {\n      position: absolute;\n      top: 80px;\n      left: 32px;\n    }\n    .p1card1num4\n    {\n      position: absolute;\n      top: 48px;\n      left: 16px;\n    }\n    .p1card2num1\n    {\n      position: absolute;\n      top: 144px;\n      left: 32px;\n    }\n    .p1card2num2\n    {\n      position: absolute;\n      top: 176px;\n      left: 48px;\n    }\n    .p1card2num3\n    {\n      position: absolute;\n      top: 208px;\n      left: 32px;\n    }\n    .p1card2num4\n    {\n      position: absolute;\n      top: 176px;\n      left: 16px;\n    }\n    .p1card3num1\n    {\n      position: absolute;\n      top: 272px;\n      left: 32px;\n    }\n    .p1card3num2\n    {\n      position: absolute;\n      top: 304px;\n      left: 48px;\n    }\n    .p1card3num3\n    {\n      position: absolute;\n      top: 336px;\n      left: 32px;\n    }\n    .p1card3num4\n    {\n      position: absolute;\n      top: 304px;\n      left: 16px;\n    }\n    .p1card4num1\n    {\n      position: absolute;\n      top: 400px;\n      left: 32px;\n    }\n    .p1card4num2\n    {\n      position: absolute;\n      top: 432px;\n      left: 48px;\n    }\n    .p1card4num3\n    {\n      position: absolute;\n      top: 464px;\n      left: 32px;\n    }\n    .p1card4num4\n    {\n      position: absolute;\n      top: 432px;\n      left: 16px;\n    }\n    .p1card5num1\n    {\n      position: absolute;\n      top: 528px;\n      left: 32px;\n    }\n    .p1card5num2\n    {\n      position: absolute;\n      top: 560px;\n      left: 48px;\n    }\n    .p1card5num3\n    {\n      position: absolute;\n      top: 592px;\n      left: 32px;\n    }\n    .p1card5num4\n    {\n      position: absolute;\n      top: 560px;\n      left: 16px;\n    }\n    .p1score\n    {\n      position: absolute;\n      top: 720px;\n      left: 80px;\n    }\n    .p1overlay1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n      z-index: 1;\n    }\n    .p1overlay2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n      z-index: 2;\n    }\n    .p1overlay3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n      z-index: 3;\n    }\n    .p1overlay4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n      z-index: 4;\n    }\n    .p1overlay5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n      z-index: 5;\n    }\n</style>\n<div class=\"player1\">\n\n<img class=\"p1playercolor1\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color1}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1card1\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card1}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1ele1\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card1num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card1num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card1num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card1num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card1num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card1num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card1num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card1num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1overlay1\" ng-click=\"send({payload: '1',topic: 'click'})\" ng-mouseover=\"send({payload: '1',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"{{size1}}\" height=\"{{size1}}\">\n\n<img class=\"p1playercolor2\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color2}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1card2\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card2}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1ele2\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card2num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card2num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card2num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card2num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card2num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card2num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card2num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card2num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1overlay2\" ng-click=\"send({payload: '2',topic: 'click'})\" ng-mouseover=\"send({payload: '2',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"{{size2}}\" height=\"{{size2}}\">\n\n<img class=\"p1playercolor3\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color3}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1card3\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card3}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1ele3\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card3num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card3num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card3num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card3num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card3num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card3num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card3num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card3num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1overlay3\" ng-click=\"send({payload: '3',topic: 'click'})\" ng-mouseover=\"send({payload: '3',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"{{size3}}\" height=\"{{size3}}\">\n\n<img class=\"p1playercolor4\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color4}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1card4\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card4}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1ele4\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card4num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card4num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card4num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card4num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card4num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card4num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card4num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card4num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1overlay4\" ng-click=\"send({payload: '4',topic: 'click'})\" ng-mouseover=\"send({payload: '4',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"{{size4}}\" height=\"{{size4}}\">\n\n<img class=\"p1playercolor5\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color5}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1card5\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card5}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1ele5\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele5}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card5num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card5num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card5num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card5num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card5num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card5num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card5num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card5num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"p1score\" src=\"http://10.0.0.111/Images/FF8/scorenum/score{{score}}.png\" width=\"96\" height=\"96\">\n<img class=\"p1overlay5\" ng-click=\"send({payload: '5',topic: 'click'})\" ng-mouseover=\"send({payload: '5',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"{{size5}}\" height=\"{{size5}}\">\n</div>",
-        "output": "str",
-        "x": 3440,
-        "y": 1380,
-        "wires": [
-            [
-                "fb62f100.daee28"
             ]
         ]
     },
@@ -1672,7 +1896,7 @@
         "y": 1380,
         "wires": [
             [
-                "2fbd10b6.053ff8"
+                "7080b085.fb0738"
             ]
         ]
     },
@@ -1692,25 +1916,6 @@
         "wires": [
             [
                 "7ffc8820.b4aff"
-            ]
-        ]
-    },
-    {
-        "id": "e6ae148a.cbe658",
-        "type": "template",
-        "z": "96bdce62.9d062",
-        "name": "",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<style>\n    .p2playercolor1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .p2playercolor2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n    }\n    .p2playercolor3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .p2playercolor4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n    }\n    .p2playercolor5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .p2card1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .p2card2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n    }\n    .p2card3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .p2card4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n    }\n    .p2card5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .p2ele1\n    {\n      position: absolute;\n      top: 10px;\n      left: 180px;\n    }\n    .p2ele2\n    {\n      position: absolute;\n      top: 138px;\n      left: 180px;\n    }\n    .p2ele3\n    {\n      position: absolute;\n      top: 266px;\n      left: 180px;\n    }\n    .p2ele4\n    {\n      position: absolute;\n      top: 394px;\n      left: 180px;\n    }\n    .p2ele5\n    {\n      position: absolute;\n      top: 522px;\n      left: 180px;\n    }\n    .p2card1num1\n    {\n      position: absolute;\n      top: 16px;\n      left: 32px;\n    }\n    .p2card1num2\n    {\n      position: absolute;\n      top: 48px;\n      left: 48px;\n    }\n    .p2card1num3\n    {\n      position: absolute;\n      top: 80px;\n      left: 32px;\n    }\n    .p2card1num4\n    {\n      position: absolute;\n      top: 48px;\n      left: 16px;\n    }\n    .p2card2num1\n    {\n      position: absolute;\n      top: 144px;\n      left: 32px;\n    }\n    .p2card2num2\n    {\n      position: absolute;\n      top: 176px;\n      left: 48px;\n    }\n    .p2card2num3\n    {\n      position: absolute;\n      top: 208px;\n      left: 32px;\n    }\n    .p2card2num4\n    {\n      position: absolute;\n      top: 176px;\n      left: 16px;\n    }\n    .p2card3num1\n    {\n      position: absolute;\n      top: 272px;\n      left: 32px;\n    }\n    .p2card3num2\n    {\n      position: absolute;\n      top: 304px;\n      left: 48px;\n    }\n    .p2card3num3\n    {\n      position: absolute;\n      top: 336px;\n      left: 32px;\n    }\n    .p2card3num4\n    {\n      position: absolute;\n      top: 304px;\n      left: 16px;\n    }\n    .p2card4num1\n    {\n      position: absolute;\n      top: 400px;\n      left: 32px;\n    }\n    .p2card4num2\n    {\n      position: absolute;\n      top: 432px;\n      left: 48px;\n    }\n    .p2card4num3\n    {\n      position: absolute;\n      top: 464px;\n      left: 32px;\n    }\n    .p2card4num4\n    {\n      position: absolute;\n      top: 432px;\n      left: 16px;\n    }\n    .p2card5num1\n    {\n      position: absolute;\n      top: 528px;\n      left: 32px;\n    }\n    .p2card5num2\n    {\n      position: absolute;\n      top: 560px;\n      left: 48px;\n    }\n    .p2card5num3\n    {\n      position: absolute;\n      top: 592px;\n      left: 32px;\n    }\n    .p2card5num4\n    {\n      position: absolute;\n      top: 560px;\n      left: 16px;\n    }\n    .p2score\n    {\n      position: absolute;\n      top: 720px;\n      left: 80px;\n    }\n    .p2overlay1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n      z-index: 1;\n    }\n    .p2overlay2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n      z-index: 2;\n    }\n    .p2overlay3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n      z-index: 3;\n    }\n    .p2overlay4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n      z-index: 4;\n    }\n    .p2overlay5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n      z-index: 5;\n    }\n</style>\n<div class=\"player1\">\n\n<img class=\"p2playercolor1\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color1}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2card1\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card1}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2ele1\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card1num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card1num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card1num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card1num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card1num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card1num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card1num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card1num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2overlay1\" ng-click=\"send({payload: '1',topic: 'click'})\" ng-mouseover=\"send({payload: '1',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"{{size1}}\" height=\"{{size1}}\">\n\n<img class=\"p2playercolor2\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color2}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2card2\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card2}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2ele2\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card2num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card2num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card2num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card2num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card2num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card2num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card2num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card2num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2overlay2\" ng-click=\"send({payload: '2',topic: 'click'})\" ng-mouseover=\"send({payload: '2',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"{{size2}}\" height=\"{{size2}}\">\n\n<img class=\"p2playercolor3\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color3}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2card3\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card3}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2ele3\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card3num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card3num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card3num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card3num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card3num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card3num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card3num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card3num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2overlay3\" ng-click=\"send({payload: '3',topic: 'click'})\" ng-mouseover=\"send({payload: '3',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"{{size3}}\" height=\"{{size3}}\">\n\n<img class=\"p2playercolor4\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color4}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2card4\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card4}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2ele4\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card4num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card4num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card4num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card4num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card4num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card4num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card4num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card4num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2overlay4\" ng-click=\"send({payload: '4',topic: 'click'})\" ng-mouseover=\"send({payload: '4',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"{{size4}}\" height=\"{{size4}}\">\n\n<img class=\"p2playercolor5\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_{{color5}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2card5\" src=\"http://10.0.0.111/Images/FF8/cards/card_{{card5}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2ele5\" src=\"http://10.0.0.111/Images/FF8/elements/ele{{ele5}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card5num1\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card5num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card5num2\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card5num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card5num3\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card5num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card5num4\" src=\"http://10.0.0.111/Images/FF8/smallnum/cardnum{{card5num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"p2score\" src=\"http://10.0.0.111/Images/FF8/scorenum/score{{score}}.png\" width=\"96\" height=\"96\">\n<img class=\"p2overlay5\" ng-click=\"send({payload: '5',topic: 'click'})\" ng-mouseover=\"send({payload: '5',topic: 'mouseover'})\" src=\"http://10.0.0.111/Images/FF8/cards/card_0_overlay.png\" width=\"{{size5}}\" height=\"{{size5}}\">\n</div>",
-        "output": "str",
-        "x": 3440,
-        "y": 1860,
-        "wires": [
-            [
-                "5d58e0b9.8afd28"
             ]
         ]
     },
@@ -2017,7 +2222,7 @@
         "y": 1860,
         "wires": [
             [
-                "e6ae148a.cbe658"
+                "c87488dd.efd95"
             ]
         ]
     },
@@ -3814,7 +4019,7 @@
         "name": "",
         "outputs": 5,
         "x": 2730,
-        "y": 1920,
+        "y": 1900,
         "wires": [
             [
                 "95162fe5.5cc9e8"
@@ -4183,8 +4388,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 4050,
-        "y": 1780,
+        "x": 4430,
+        "y": 1860,
         "wires": [
             []
         ]
@@ -4200,8 +4405,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 4040,
-        "y": 1820,
+        "x": 4240,
+        "y": 1860,
         "wires": [
             [
                 "8d938418.be9ba"
@@ -4313,8 +4518,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 4230,
-        "y": 1240,
+        "x": 4590,
+        "y": 1320,
         "wires": [
             []
         ]
@@ -4330,8 +4535,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 4220,
-        "y": 1280,
+        "x": 4400,
+        "y": 1320,
         "wires": [
             [
                 "f41183fa.72ad28"
@@ -5811,7 +6016,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 4410,
+        "x": 4650,
         "y": 2340,
         "wires": [
             [
@@ -5849,7 +6054,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 4480,
+        "x": 4440,
         "y": 1380,
         "wires": [
             [
@@ -5868,7 +6073,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 4050,
+        "x": 4290,
         "y": 2380,
         "wires": [
             [
@@ -5895,7 +6100,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 4260,
+        "x": 4500,
         "y": 2380,
         "wires": [
             [
@@ -6166,7 +6371,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 4140,
+        "x": 4380,
         "y": 2320,
         "wires": [
             [
@@ -6243,10 +6448,10 @@
         "z": "96bdce62.9d062",
         "group": "c87d751.00c7f88",
         "name": "css",
-        "order": 48,
+        "order": 66,
         "width": 1,
         "height": 1,
-        "format": "<link href=\"https://unpkg.com/nes.css@latest/css/nes.min.css\" rel=\"stylesheet\" />",
+        "format": "<link href=\"https://unpkg.com/nes.css@latest/css/nes.min.css\" rel=\"stylesheet\" />\n<style>\n    .nes-btn.is-warning {\n        width: 240px;\n        padding: 1px 1px;\n    }\n    .nes-btn.is-primary {\n        width: 240px;\n        padding: 1px 1px;\n    }\n    .nes-btn.is-error {\n        width: 240px;\n        padding: 1px 1px;\n        background-color: #C52020 !important;\n    }\n    .nes-btn.is-error:hover {\n        width: 240px;\n        padding: 1px 1px;\n        background-color: #B20000 !important;\n    }\n    .mat\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n      width: 768px;\n      height: 768px;\n      max-width: 100%;\n      border-style: solid;\n      border-color: black;\n    }\n    .playercolor1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .playercolor2\n    {\n      position: absolute;\n      top: 0px;\n      left: 256px;\n    }\n    .playercolor3\n    {\n      position: absolute;\n      top: 0px;\n      left: 512px;\n    }\n    .playercolor4\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .playercolor5\n    {\n      position: absolute;\n      top: 256px;\n      left: 256px;\n    }\n    .playercolor6\n    {\n      position: absolute;\n      top: 256px;\n      left: 512px;\n    }\n    .playercolor7\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .playercolor8\n    {\n      position: absolute;\n      top: 512px;\n      left: 256px;\n    }\n    .playercolor9\n    {\n      position: absolute;\n      top: 512px;\n      left: 512px;\n    }\n    .card1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .card2\n    {\n      position: absolute;\n      top: 0px;\n      left: 256px;\n    }\n    .card3\n    {\n      position: absolute;\n      top: 0px;\n      left: 512px;\n    }\n    .card4\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .card5\n    {\n      position: absolute;\n      top: 256px;\n      left: 256px;\n    }\n    .card6\n    {\n      position: absolute;\n      top: 256px;\n      left: 512px;\n    }\n    .card7\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .card8\n    {\n      position: absolute;\n      top: 512px;\n      left: 256px;\n    }\n    .card9\n    {\n      position: absolute;\n      top: 512px;\n      left: 512px;\n    }\n    .ele1\n    {\n      position: absolute;\n      top: 10px;\n      left: 180px;\n    }\n    .ele2\n    {\n      position: absolute;\n      top: 10px;\n      left: 436px;\n    }\n    .ele3\n    {\n      position: absolute;\n      top: 10px;\n      left: 692px;\n    }\n    .ele4\n    {\n      position: absolute;\n      top: 266px;\n      left: 180px;\n    }\n    .ele5\n    {\n      position: absolute;\n      top: 266px;\n      left: 436px;\n    }\n    .ele6\n    {\n      position: absolute;\n      top: 266px;\n      left: 692px;\n    }\n    .ele7\n    {\n      position: absolute;\n      top: 522px;\n      left: 180px;\n    }\n    .ele8\n    {\n      position: absolute;\n      top: 522px;\n      left: 436px;\n    }\n    .ele9\n    {\n      position: absolute;\n      top: 522px;\n      left: 692px;\n    }\n    .card1num1\n    {\n      position: absolute;\n      top: 16px;\n      left: 32px;\n    }\n    .card1num2\n    {\n      position: absolute;\n      top: 48px;\n      left: 48px;\n    }\n    .card1num3\n    {\n      position: absolute;\n      top: 80px;\n      left: 32px;\n    }\n    .card1num4\n    {\n      position: absolute;\n      top: 48px;\n      left: 16px;\n    }\n    .card2num1\n    {\n      position: absolute;\n      top: 16px;\n      left: 288px;\n    }\n    .card2num2\n    {\n      position: absolute;\n      top: 48px;\n      left: 304px;\n    }\n    .card2num3\n    {\n      position: absolute;\n      top: 80px;\n      left: 288px;\n    }\n    .card2num4\n    {\n      position: absolute;\n      top: 48px;\n      left: 272px;\n    }\n    .card3num1\n    {\n      position: absolute;\n      top: 16px;\n      left: 544px;\n    }\n    .card3num2\n    {\n      position: absolute;\n      top: 48px;\n      left: 560px;\n    }\n    .card3num3\n    {\n      position: absolute;\n      top: 80px;\n      left: 544px;\n    }\n    .card3num4\n    {\n      position: absolute;\n      top: 48px;\n      left: 528px;\n    }\n    .card4num1\n    {\n      position: absolute;\n      top: 272px;\n      left: 32px;\n    }\n    .card4num2\n    {\n      position: absolute;\n      top: 304px;\n      left: 48px;\n    }\n    .card4num3\n    {\n      position: absolute;\n      top: 336px;\n      left: 32px;\n    }\n    .card4num4\n    {\n      position: absolute;\n      top: 304px;\n      left: 16px;\n    }\n    .card5num1\n    {\n      position: absolute;\n      top: 272px;\n      left: 288px;\n    }\n    .card5num2\n    {\n      position: absolute;\n      top: 304px;\n      left: 304px;\n    }\n    .card5num3\n    {\n      position: absolute;\n      top: 336px;\n      left: 288px;\n    }\n    .card5num4\n    {\n      position: absolute;\n      top: 304px;\n      left: 272px;\n    }\n    .card6num1\n    {\n      position: absolute;\n      top: 272px;\n      left: 544px;\n    }\n    .card6num2\n    {\n      position: absolute;\n      top: 304px;\n      left: 560px;\n    }\n    .card6num3\n    {\n      position: absolute;\n      top: 336px;\n      left: 544px;\n    }\n    .card6num4\n    {\n      position: absolute;\n      top: 304px;\n      left: 528px;\n    }\n    .card7num1\n    {\n      position: absolute;\n      top: 528px;\n      left: 32px;\n    }\n    .card7num2\n    {\n      position: absolute;\n      top: 560px;\n      left: 48px;\n    }\n    .card7num3\n    {\n      position: absolute;\n      top: 592px;\n      left: 32px;\n    }\n    .card7num4\n    {\n      position: absolute;\n      top: 560px;\n      left: 16px;\n    }\n    .card8num1\n    {\n      position: absolute;\n      top: 528px;\n      left: 288px;\n    }\n    .card8num2\n    {\n      position: absolute;\n      top: 560px;\n      left: 304px;\n    }\n    .card8num3\n    {\n      position: absolute;\n      top: 592px;\n      left: 288px;\n    }\n    .card8num4\n    {\n      position: absolute;\n      top: 560px;\n      left: 272px;\n    }\n    .card9num1\n    {\n      position: absolute;\n      top: 528px;\n      left: 544px;\n    }\n    .card9num2\n    {\n      position: absolute;\n      top: 560px;\n      left: 560px;\n    }\n    .card9num3\n    {\n      position: absolute;\n      top: 592px;\n      left: 544px;\n    }\n    .card9num4\n    {\n      position: absolute;\n      top: 560px;\n      left: 528px;\n    }\n    .mod1\n    {\n      position: absolute;\n      top: 96px;\n      left: 96px;\n      opacity: 65%;\n    }\n    .mod2\n    {\n      position: absolute;\n      top: 96px;\n      left: 352px;\n      opacity: 65%;\n    }\n    .mod3\n    {\n      position: absolute;\n      top: 96px;\n      left: 608px;\n      opacity: 65%;\n    }\n    .mod4\n    {\n      position: absolute;\n      top: 352px;\n      left: 96px;\n      opacity: 65%;\n    }\n    .mod5\n    {\n      position: absolute;\n      top: 352px;\n      left: 352px;\n      opacity: 65%;\n    }\n    .mod6\n    {\n      position: absolute;\n      top: 352px;\n      left: 608px;\n      opacity: 65%;\n    }\n    .mod7\n    {\n      position: absolute;\n      top: 608px;\n      left: 96px;\n      opacity: 65%;\n    }\n    .mod8\n    {\n      position: absolute;\n      top: 608px;\n      left: 352px;\n      opacity: 65%;\n    }\n    .mod9\n    {\n      position: absolute;\n      top: 608px;\n      left: 608px;\n      opacity: 65%;\n    }\n    .boardoverlay1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n      z-index: 1;\n    }\n    .boardoverlay2\n    {\n      position: absolute;\n      top: 0px;\n      left: 256px;\n      z-index: 1;\n    }\n    .boardoverlay3\n    {\n      position: absolute;\n      top: 0px;\n      left: 512px;\n      z-index: 1;\n    }\n    .boardoverlay4\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n      z-index: 1;\n    }\n    .boardoverlay5\n    {\n      position: absolute;\n      top: 256px;\n      left: 256px;\n      z-index: 1;\n    }\n    .boardoverlay6\n    {\n      position: absolute;\n      top: 256px;\n      left: 512px;\n      z-index: 1;\n    }\n    .boardoverlay7\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n      z-index: 1;\n    }\n    .boardoverlay8\n    {\n      position: absolute;\n      top: 512px;\n      left: 256px;\n      z-index: 1;\n    }\n    .boardoverlay9\n    {\n      position: absolute;\n      top: 512px;\n      left: 512px;\n      z-index: 1;\n    }\n    .banners\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n      max-width: 100%;\n    }\n    .p1playercolor1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .p1playercolor2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n    }\n    .p1playercolor3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .p1playercolor4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n    }\n    .p1playercolor5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .p1card1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .p1card2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n    }\n    .p1card3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .p1card4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n    }\n    .p1card5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .p1ele1\n    {\n      position: absolute;\n      top: 10px;\n      left: 180px;\n    }\n    .p1ele2\n    {\n      position: absolute;\n      top: 138px;\n      left: 180px;\n    }\n    .p1ele3\n    {\n      position: absolute;\n      top: 266px;\n      left: 180px;\n    }\n    .p1ele4\n    {\n      position: absolute;\n      top: 394px;\n      left: 180px;\n    }\n    .p1ele5\n    {\n      position: absolute;\n      top: 522px;\n      left: 180px;\n    }\n    .p1card1num1\n    {\n      position: absolute;\n      top: 16px;\n      left: 32px;\n    }\n    .p1card1num2\n    {\n      position: absolute;\n      top: 48px;\n      left: 48px;\n    }\n    .p1card1num3\n    {\n      position: absolute;\n      top: 80px;\n      left: 32px;\n    }\n    .p1card1num4\n    {\n      position: absolute;\n      top: 48px;\n      left: 16px;\n    }\n    .p1card2num1\n    {\n      position: absolute;\n      top: 144px;\n      left: 32px;\n    }\n    .p1card2num2\n    {\n      position: absolute;\n      top: 176px;\n      left: 48px;\n    }\n    .p1card2num3\n    {\n      position: absolute;\n      top: 208px;\n      left: 32px;\n    }\n    .p1card2num4\n    {\n      position: absolute;\n      top: 176px;\n      left: 16px;\n    }\n    .p1card3num1\n    {\n      position: absolute;\n      top: 272px;\n      left: 32px;\n    }\n    .p1card3num2\n    {\n      position: absolute;\n      top: 304px;\n      left: 48px;\n    }\n    .p1card3num3\n    {\n      position: absolute;\n      top: 336px;\n      left: 32px;\n    }\n    .p1card3num4\n    {\n      position: absolute;\n      top: 304px;\n      left: 16px;\n    }\n    .p1card4num1\n    {\n      position: absolute;\n      top: 400px;\n      left: 32px;\n    }\n    .p1card4num2\n    {\n      position: absolute;\n      top: 432px;\n      left: 48px;\n    }\n    .p1card4num3\n    {\n      position: absolute;\n      top: 464px;\n      left: 32px;\n    }\n    .p1card4num4\n    {\n      position: absolute;\n      top: 432px;\n      left: 16px;\n    }\n    .p1card5num1\n    {\n      position: absolute;\n      top: 528px;\n      left: 32px;\n    }\n    .p1card5num2\n    {\n      position: absolute;\n      top: 560px;\n      left: 48px;\n    }\n    .p1card5num3\n    {\n      position: absolute;\n      top: 592px;\n      left: 32px;\n    }\n    .p1card5num4\n    {\n      position: absolute;\n      top: 560px;\n      left: 16px;\n    }\n    .p1score\n    {\n      position: absolute;\n      top: 720px;\n      left: 80px;\n    }\n    .p1overlay1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n      z-index: 1;\n    }\n    .p1overlay2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n      z-index: 2;\n    }\n    .p1overlay3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n      z-index: 3;\n    }\n    .p1overlay4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n      z-index: 4;\n    }\n    .p1overlay5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n      z-index: 5;\n    }\n    .p2playercolor1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .p2playercolor2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n    }\n    .p2playercolor3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .p2playercolor4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n    }\n    .p2playercolor5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .p2card1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .p2card2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n    }\n    .p2card3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .p2card4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n    }\n    .p2card5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .p2ele1\n    {\n      position: absolute;\n      top: 10px;\n      left: 180px;\n    }\n    .p2ele2\n    {\n      position: absolute;\n      top: 138px;\n      left: 180px;\n    }\n    .p2ele3\n    {\n      position: absolute;\n      top: 266px;\n      left: 180px;\n    }\n    .p2ele4\n    {\n      position: absolute;\n      top: 394px;\n      left: 180px;\n    }\n    .p2ele5\n    {\n      position: absolute;\n      top: 522px;\n      left: 180px;\n    }\n    .p2card1num1\n    {\n      position: absolute;\n      top: 16px;\n      left: 32px;\n    }\n    .p2card1num2\n    {\n      position: absolute;\n      top: 48px;\n      left: 48px;\n    }\n    .p2card1num3\n    {\n      position: absolute;\n      top: 80px;\n      left: 32px;\n    }\n    .p2card1num4\n    {\n      position: absolute;\n      top: 48px;\n      left: 16px;\n    }\n    .p2card2num1\n    {\n      position: absolute;\n      top: 144px;\n      left: 32px;\n    }\n    .p2card2num2\n    {\n      position: absolute;\n      top: 176px;\n      left: 48px;\n    }\n    .p2card2num3\n    {\n      position: absolute;\n      top: 208px;\n      left: 32px;\n    }\n    .p2card2num4\n    {\n      position: absolute;\n      top: 176px;\n      left: 16px;\n    }\n    .p2card3num1\n    {\n      position: absolute;\n      top: 272px;\n      left: 32px;\n    }\n    .p2card3num2\n    {\n      position: absolute;\n      top: 304px;\n      left: 48px;\n    }\n    .p2card3num3\n    {\n      position: absolute;\n      top: 336px;\n      left: 32px;\n    }\n    .p2card3num4\n    {\n      position: absolute;\n      top: 304px;\n      left: 16px;\n    }\n    .p2card4num1\n    {\n      position: absolute;\n      top: 400px;\n      left: 32px;\n    }\n    .p2card4num2\n    {\n      position: absolute;\n      top: 432px;\n      left: 48px;\n    }\n    .p2card4num3\n    {\n      position: absolute;\n      top: 464px;\n      left: 32px;\n    }\n    .p2card4num4\n    {\n      position: absolute;\n      top: 432px;\n      left: 16px;\n    }\n    .p2card5num1\n    {\n      position: absolute;\n      top: 528px;\n      left: 32px;\n    }\n    .p2card5num2\n    {\n      position: absolute;\n      top: 560px;\n      left: 48px;\n    }\n    .p2card5num3\n    {\n      position: absolute;\n      top: 592px;\n      left: 32px;\n    }\n    .p2card5num4\n    {\n      position: absolute;\n      top: 560px;\n      left: 16px;\n    }\n    .p2score\n    {\n      position: absolute;\n      top: 720px;\n      left: 80px;\n    }\n    .p2overlay1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n      z-index: 1;\n    }\n    .p2overlay2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n      z-index: 2;\n    }\n    .p2overlay3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n      z-index: 3;\n    }\n    .p2overlay4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n      z-index: 4;\n    }\n    .p2overlay5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n      z-index: 5;\n    }\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -6263,10 +6468,10 @@
         "z": "96bdce62.9d062",
         "group": "c87d751.00c7f88",
         "name": "reset",
-        "order": 3,
+        "order": 5,
         "width": 5,
         "height": 1,
-        "format": "<style>\n    .nes-btn.is-warning {\n    width: 240px;\n    padding: 1px 1px;\n}\n</style>\n<button type=\"button\" class=\"nes-btn is-warning\" ng-click=\"send({payload: '',topic: ''})\">RESET</button>",
+        "format": "<button type=\"button\" class=\"nes-btn is-warning\" ng-click=\"send({payload: '',topic: ''})\">RESET</button>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -6292,10 +6497,10 @@
         "z": "96bdce62.9d062",
         "group": "c87d751.00c7f88",
         "name": "new hand 1",
-        "order": 1,
+        "order": 2,
         "width": 5,
         "height": 1,
-        "format": "<style>\n    .nes-btn.is-error {\n        width: 240px;\n        padding: 1px 1px;\n        background-color: #C52020 !important;\n    }\n    .nes-btn.is-error:hover {\n        width: 240px;\n        padding: 1px 1px;\n        background-color: #B20000 !important;\n    }\n</style>\n<button type=\"button\" class=\"nes-btn is-error\" ng-click=\"send({payload: '',topic: ''})\">NEW HAND</button>",
+        "format": "<button type=\"button\" class=\"nes-btn is-error\" ng-click=\"send({payload: '',topic: ''})\">NEW HAND</button>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -6317,10 +6522,10 @@
         "z": "96bdce62.9d062",
         "group": "c87d751.00c7f88",
         "name": "new hand 2",
-        "order": 6,
+        "order": 8,
         "width": 5,
         "height": 1,
-        "format": "<style>\n    .nes-btn.is-primary {\n        width: 240px;\n        padding: 1px 1px;\n    }\n</style>\n<button type=\"button\" class=\"nes-btn is-primary\" ng-click=\"send({payload: '',topic: ''})\">NEW HAND</button>",
+        "format": "<button type=\"button\" class=\"nes-btn is-primary\" ng-click=\"send({payload: '',topic: ''})\">NEW HAND</button>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -6342,7 +6547,7 @@
         "z": "96bdce62.9d062",
         "group": "c87d751.00c7f88",
         "name": "info",
-        "order": 42,
+        "order": 60,
         "width": 13,
         "height": 3,
         "format": "<style>\n    .nes-container.with-title {\n        background-color: gray !important; \n    }\n</style>\n\n<div id=\"infobox\" class=\"nes-container with-title\">\n    <p class=\"title\" style=\"background-color: gray !important;border-style: solid;border-color: black;\">Info.</p>\n    <md-content layout=\"row\" layout-align=\"center\">\n        <h1 style=\"background-color: gray !important;\">{{msg.payload}}</h1>\n    </md-content>\n</div>",
@@ -6350,7 +6555,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 4470,
+        "x": 4710,
         "y": 2380,
         "wires": [
             []
@@ -9605,12 +9810,12 @@
         "type": "file in",
         "z": "96bdce62.9d062",
         "name": "",
-        "filename": "/var/www/html/Audio/FF8/cursor.wav",
+        "filename": "/home/pi/.node-red/static/FF8/audio/cursor.wav",
         "format": "",
         "chunk": false,
         "sendError": false,
         "encoding": "none",
-        "x": 1190,
+        "x": 1180,
         "y": 980,
         "wires": [
             [
@@ -9623,12 +9828,12 @@
         "type": "file in",
         "z": "96bdce62.9d062",
         "name": "",
-        "filename": "/var/www/html/Audio/FF8/cursor.wav",
+        "filename": "/home/pi/.node-red/static/FF8/audio/cursor.wav",
         "format": "",
         "chunk": false,
         "sendError": false,
         "encoding": "none",
-        "x": 4070,
+        "x": 4080,
         "y": 1460,
         "wires": [
             [
@@ -9641,12 +9846,12 @@
         "type": "file in",
         "z": "96bdce62.9d062",
         "name": "",
-        "filename": "/var/www/html/Audio/FF8/button.wav",
+        "filename": "/home/pi/.node-red/static/FF8/audio/button.wav",
         "format": "",
         "chunk": false,
         "sendError": false,
         "encoding": "none",
-        "x": 510,
+        "x": 540,
         "y": 2340,
         "wires": [
             [
@@ -9655,41 +9860,21 @@
         ]
     },
     {
-        "id": "73135d8d.3121fc",
-        "type": "play audio",
-        "z": "96bdce62.9d062",
-        "name": "play sfx",
-        "voice": "0",
-        "x": 4420,
-        "y": 1460,
-        "wires": []
-    },
-    {
-        "id": "9b4eda55.c8ac4",
-        "type": "play audio",
-        "z": "96bdce62.9d062",
-        "name": "play sfx",
-        "voice": "0",
-        "x": 860,
-        "y": 2340,
-        "wires": []
-    },
-    {
         "id": "94d875d4.0fc03",
         "type": "ui_template",
         "z": "96bdce62.9d062",
         "group": "c87d751.00c7f88",
         "name": "sfx",
-        "order": 4,
+        "order": 6,
         "width": 5,
         "height": 1,
-        "format": "<style>\n    .nes-btn.is-warning {\n    width: 240px;\n    padding: 1px 1px;\n}\n</style>\n<button type=\"button\" class=\"nes-btn is-warning\" ng-click=\"send({payload: 'toggle',topic: 'sfx'})\">SFX</button>",
+        "format": "<button type=\"button\" class=\"nes-btn is-warning\" ng-click=\"send({payload: 'toggle',topic: 'sfx'})\">SFX</button>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1910,
-        "y": 2140,
+        "x": 3570,
+        "y": 1240,
         "wires": [
             [
                 "9a25f016.d016a8"
@@ -9718,11 +9903,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 4290,
+        "x": 4330,
         "y": 1460,
         "wires": [
             [
-                "73135d8d.3121fc"
+                "a08f4a56.08d408"
             ],
             []
         ]
@@ -9741,31 +9926,13 @@
         "toggleValue": "toggle",
         "toggleType": "str",
         "passOnOff": "",
-        "x": 2030,
-        "y": 2140,
+        "x": 3710,
+        "y": 1240,
         "wires": [
             [
-                "c76f4b85.36a44",
                 "702444f6.bf9734"
             ]
         ]
-    },
-    {
-        "id": "c76f4b85.36a44",
-        "type": "debug",
-        "z": "96bdce62.9d062",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2190,
-        "y": 2120,
-        "wires": []
     },
     {
         "id": "702444f6.bf9734",
@@ -9786,8 +9953,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2220,
-        "y": 2160,
+        "x": 3860,
+        "y": 1240,
         "wires": [
             []
         ]
@@ -9814,24 +9981,14 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 730,
+        "x": 790,
         "y": 2340,
         "wires": [
             [
-                "9b4eda55.c8ac4"
+                "2289e91d.6d7786"
             ],
             []
         ]
-    },
-    {
-        "id": "4eb09f7a.4acfb8",
-        "type": "play audio",
-        "z": "96bdce62.9d062",
-        "name": "play sfx",
-        "voice": "0",
-        "x": 1200,
-        "y": 1020,
-        "wires": []
     },
     {
         "id": "d37294be.523c18",
@@ -9859,7 +10016,7 @@
         "y": 1020,
         "wires": [
             [
-                "4eb09f7a.4acfb8"
+                "747c3939.05d17"
             ],
             []
         ]
@@ -9966,6 +10123,119 @@
         "reg": false,
         "x": 3760,
         "y": 1620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "37e2fb1f.69678c",
+        "type": "template",
+        "z": "96bdce62.9d062",
+        "name": "board",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"board\">\n\n<img class=\"mat\" src=\"/FF8/board/mat.png\" width=\"768\" height=\"768\">\n\n<img class=\"playercolor1\" src=\"/FF8/cards/card_0_{{color1}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor2\" src=\"/FF8/cards/card_0_{{color2}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor3\" src=\"/FF8/cards/card_0_{{color3}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor4\" src=\"/FF8/cards/card_0_{{color4}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor5\" src=\"/FF8/cards/card_0_{{color5}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor6\" src=\"/FF8/cards/card_0_{{color6}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor7\" src=\"/FF8/cards/card_0_{{color7}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor8\" src=\"/FF8/cards/card_0_{{color8}}.png\" width=\"256\" height=\"256\">\n<img class=\"playercolor9\" src=\"/FF8/cards/card_0_{{color9}}.png\" width=\"256\" height=\"256\">\n\n<img class=\"card1\" src=\"/FF8/cards/card_{{card1}}.png\" width=\"256\" height=\"256\">\n<img class=\"card2\" src=\"/FF8/cards/card_{{card2}}.png\" width=\"256\" height=\"256\">\n<img class=\"card3\" src=\"/FF8/cards/card_{{card3}}.png\" width=\"256\" height=\"256\">\n<img class=\"card4\" src=\"/FF8/cards/card_{{card4}}.png\" width=\"256\" height=\"256\">\n<img class=\"card5\" src=\"/FF8/cards/card_{{card5}}.png\" width=\"256\" height=\"256\">\n<img class=\"card6\" src=\"/FF8/cards/card_{{card6}}.png\" width=\"256\" height=\"256\">\n<img class=\"card7\" src=\"/FF8/cards/card_{{card7}}.png\" width=\"256\" height=\"256\">\n<img class=\"card8\" src=\"/FF8/cards/card_{{card8}}.png\" width=\"256\" height=\"256\">\n<img class=\"card9\" src=\"/FF8/cards/card_{{card9}}.png\" width=\"256\" height=\"256\">\n\n<img class=\"ele1\" src=\"/FF8/elements/ele{{ele1}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele2\" src=\"/FF8/elements/ele{{ele2}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele3\" src=\"/FF8/elements/ele{{ele3}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele4\" src=\"/FF8/elements/ele{{ele4}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele5\" src=\"/FF8/elements/ele{{ele5}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele6\" src=\"/FF8/elements/ele{{ele6}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele7\" src=\"/FF8/elements/ele{{ele7}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele8\" src=\"/FF8/elements/ele{{ele8}}.png\" width=\"64\" height=\"64\">\n<img class=\"ele9\" src=\"/FF8/elements/ele{{ele9}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card1num1\" src=\"/FF8/smallnum/cardnum{{card1num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card1num2\" src=\"/FF8/smallnum/cardnum{{card1num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card1num3\" src=\"/FF8/smallnum/cardnum{{card1num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card1num4\" src=\"/FF8/smallnum/cardnum{{card1num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card2num1\" src=\"/FF8/smallnum/cardnum{{card2num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card2num2\" src=\"/FF8/smallnum/cardnum{{card2num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card2num3\" src=\"/FF8/smallnum/cardnum{{card2num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card2num4\" src=\"/FF8/smallnum/cardnum{{card2num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card3num1\" src=\"/FF8/smallnum/cardnum{{card3num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card3num2\" src=\"/FF8/smallnum/cardnum{{card3num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card3num3\" src=\"/FF8/smallnum/cardnum{{card3num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card3num4\" src=\"/FF8/smallnum/cardnum{{card3num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card4num1\" src=\"/FF8/smallnum/cardnum{{card4num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card4num2\" src=\"/FF8/smallnum/cardnum{{card4num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card4num3\" src=\"/FF8/smallnum/cardnum{{card4num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card4num4\" src=\"/FF8/smallnum/cardnum{{card4num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card5num1\" src=\"/FF8/smallnum/cardnum{{card5num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card5num2\" src=\"/FF8/smallnum/cardnum{{card5num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card5num3\" src=\"/FF8/smallnum/cardnum{{card5num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card5num4\" src=\"/FF8/smallnum/cardnum{{card5num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card6num1\" src=\"/FF8/smallnum/cardnum{{card6num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card6num2\" src=\"/FF8/smallnum/cardnum{{card6num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card6num3\" src=\"/FF8/smallnum/cardnum{{card6num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card6num4\" src=\"/FF8/smallnum/cardnum{{card6num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card7num1\" src=\"/FF8/smallnum/cardnum{{card7num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card7num2\" src=\"/FF8/smallnum/cardnum{{card7num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card7num3\" src=\"/FF8/smallnum/cardnum{{card7num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card7num4\" src=\"/FF8/smallnum/cardnum{{card7num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card8num1\" src=\"/FF8/smallnum/cardnum{{card8num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card8num2\" src=\"/FF8/smallnum/cardnum{{card8num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card8num3\" src=\"/FF8/smallnum/cardnum{{card8num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card8num4\" src=\"/FF8/smallnum/cardnum{{card8num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"card9num1\" src=\"/FF8/smallnum/cardnum{{card9num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"card9num2\" src=\"/FF8/smallnum/cardnum{{card9num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"card9num3\" src=\"/FF8/smallnum/cardnum{{card9num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"card9num4\" src=\"/FF8/smallnum/cardnum{{card9num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"mod1\" src=\"/FF8/elements/ele{{mod1}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod2\" src=\"/FF8/elements/ele{{mod2}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod3\" src=\"/FF8/elements/ele{{mod3}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod4\" src=\"/FF8/elements/ele{{mod3}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod5\" src=\"/FF8/elements/ele{{mod4}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod6\" src=\"/FF8/elements/ele{{mod5}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod7\" src=\"/FF8/elements/ele{{mod6}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod8\" src=\"/FF8/elements/ele{{mod7}}.png\" width=\"64\" height=\"64\">\n<img class=\"mod9\" src=\"/FF8/elements/ele{{mod8}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"banners\" src=\"/FF8/banners/{{banner}}.png\">\n\n\n\n<img class=\"boardoverlay1\" ng-click=\"send({payload: '1',topic: 'click'})\" ng-mouseover=\"send({payload: '1',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay2\" ng-click=\"send({payload: '2',topic: 'click'})\" ng-mouseover=\"send({payload: '2',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay3\" ng-click=\"send({payload: '3',topic: 'click'})\" ng-mouseover=\"send({payload: '3',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay4\" ng-click=\"send({payload: '4',topic: 'click'})\" ng-mouseover=\"send({payload: '4',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay5\" ng-click=\"send({payload: '5',topic: 'click'})\" ng-mouseover=\"send({payload: '5',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay6\" ng-click=\"send({payload: '6',topic: 'click'})\" ng-mouseover=\"send({payload: '6',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay7\" ng-click=\"send({payload: '7',topic: 'click'})\" ng-mouseover=\"send({payload: '7',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay8\" ng-click=\"send({payload: '8',topic: 'click'})\" ng-mouseover=\"send({payload: '8',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n<img class=\"boardoverlay9\" ng-click=\"send({payload: '9',topic: 'click'})\" ng-mouseover=\"send({payload: '9',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"256\" height=\"256\">\n\n\n\n</div>",
+        "output": "str",
+        "x": 1110,
+        "y": 820,
+        "wires": [
+            [
+                "d8f6c9d8.8daf98"
+            ]
+        ]
+    },
+    {
+        "id": "7080b085.fb0738",
+        "type": "template",
+        "z": "96bdce62.9d062",
+        "name": "player 1",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"player1\">\n\n<img class=\"p1playercolor1\" src=\"/FF8/cards/card_0_{{color1}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1card1\" src=\"/FF8/cards/card_{{card1}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1ele1\" src=\"/FF8/elements/ele{{ele1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card1num1\" src=\"/FF8/smallnum/cardnum{{card1num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card1num2\" src=\"/FF8/smallnum/cardnum{{card1num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card1num3\" src=\"/FF8/smallnum/cardnum{{card1num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card1num4\" src=\"/FF8/smallnum/cardnum{{card1num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1overlay1\" ng-click=\"send({payload: '1',topic: 'click'})\" ng-mouseover=\"send({payload: '1',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"{{size1}}\" height=\"{{size1}}\">\n\n<img class=\"p1playercolor2\" src=\"/FF8/cards/card_0_{{color2}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1card2\" src=\"/FF8/cards/card_{{card2}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1ele2\" src=\"/FF8/elements/ele{{ele2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card2num1\" src=\"/FF8/smallnum/cardnum{{card2num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card2num2\" src=\"/FF8/smallnum/cardnum{{card2num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card2num3\" src=\"/FF8/smallnum/cardnum{{card2num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card2num4\" src=\"/FF8/smallnum/cardnum{{card2num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1overlay2\" ng-click=\"send({payload: '2',topic: 'click'})\" ng-mouseover=\"send({payload: '2',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"{{size2}}\" height=\"{{size2}}\">\n\n<img class=\"p1playercolor3\" src=\"/FF8/cards/card_0_{{color3}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1card3\" src=\"/FF8/cards/card_{{card3}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1ele3\" src=\"/FF8/elements/ele{{ele3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card3num1\" src=\"/FF8/smallnum/cardnum{{card3num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card3num2\" src=\"/FF8/smallnum/cardnum{{card3num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card3num3\" src=\"/FF8/smallnum/cardnum{{card3num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card3num4\" src=\"/FF8/smallnum/cardnum{{card3num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1overlay3\" ng-click=\"send({payload: '3',topic: 'click'})\" ng-mouseover=\"send({payload: '3',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"{{size3}}\" height=\"{{size3}}\">\n\n<img class=\"p1playercolor4\" src=\"/FF8/cards/card_0_{{color4}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1card4\" src=\"/FF8/cards/card_{{card4}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1ele4\" src=\"/FF8/elements/ele{{ele4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card4num1\" src=\"/FF8/smallnum/cardnum{{card4num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card4num2\" src=\"/FF8/smallnum/cardnum{{card4num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card4num3\" src=\"/FF8/smallnum/cardnum{{card4num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card4num4\" src=\"/FF8/smallnum/cardnum{{card4num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1overlay4\" ng-click=\"send({payload: '4',topic: 'click'})\" ng-mouseover=\"send({payload: '4',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"{{size4}}\" height=\"{{size4}}\">\n\n<img class=\"p1playercolor5\" src=\"/FF8/cards/card_0_{{color5}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1card5\" src=\"/FF8/cards/card_{{card5}}.png\" width=\"256\" height=\"256\">\n<img class=\"p1ele5\" src=\"/FF8/elements/ele{{ele5}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card5num1\" src=\"/FF8/smallnum/cardnum{{card5num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card5num2\" src=\"/FF8/smallnum/cardnum{{card5num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card5num3\" src=\"/FF8/smallnum/cardnum{{card5num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p1card5num4\" src=\"/FF8/smallnum/cardnum{{card5num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"p1score\" src=\"/FF8/scorenum/score{{score}}.png\" width=\"96\" height=\"96\">\n<img class=\"p1overlay5\" ng-click=\"send({payload: '5',topic: 'click'})\" ng-mouseover=\"send({payload: '5',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"{{size5}}\" height=\"{{size5}}\">\n</div>",
+        "output": "str",
+        "x": 3440,
+        "y": 1380,
+        "wires": [
+            [
+                "fb62f100.daee28"
+            ]
+        ]
+    },
+    {
+        "id": "c87488dd.efd95",
+        "type": "template",
+        "z": "96bdce62.9d062",
+        "name": "player 2",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"player2\">\n\n<img class=\"p2playercolor1\" src=\"/FF8/cards/card_0_{{color1}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2card1\" src=\"/FF8/cards/card_{{card1}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2ele1\" src=\"/FF8/elements/ele{{ele1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card1num1\" src=\"/FF8/smallnum/cardnum{{card1num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card1num2\" src=\"/FF8/smallnum/cardnum{{card1num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card1num3\" src=\"/FF8/smallnum/cardnum{{card1num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card1num4\" src=\"/FF8/smallnum/cardnum{{card1num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2overlay1\" ng-click=\"send({payload: '1',topic: 'click'})\" ng-mouseover=\"send({payload: '1',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"{{size1}}\" height=\"{{size1}}\">\n\n<img class=\"p2playercolor2\" src=\"/FF8/cards/card_0_{{color2}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2card2\" src=\"/FF8/cards/card_{{card2}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2ele2\" src=\"/FF8/elements/ele{{ele2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card2num1\" src=\"/FF8/smallnum/cardnum{{card2num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card2num2\" src=\"/FF8/smallnum/cardnum{{card2num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card2num3\" src=\"/FF8/smallnum/cardnum{{card2num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card2num4\" src=\"/FF8/smallnum/cardnum{{card2num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2overlay2\" ng-click=\"send({payload: '2',topic: 'click'})\" ng-mouseover=\"send({payload: '2',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"{{size2}}\" height=\"{{size2}}\">\n\n<img class=\"p2playercolor3\" src=\"/FF8/cards/card_0_{{color3}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2card3\" src=\"/FF8/cards/card_{{card3}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2ele3\" src=\"/FF8/elements/ele{{ele3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card3num1\" src=\"/FF8/smallnum/cardnum{{card3num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card3num2\" src=\"/FF8/smallnum/cardnum{{card3num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card3num3\" src=\"/FF8/smallnum/cardnum{{card3num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card3num4\" src=\"/FF8/smallnum/cardnum{{card3num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2overlay3\" ng-click=\"send({payload: '3',topic: 'click'})\" ng-mouseover=\"send({payload: '3',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"{{size3}}\" height=\"{{size3}}\">\n\n<img class=\"p2playercolor4\" src=\"/FF8/cards/card_0_{{color4}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2card4\" src=\"/FF8/cards/card_{{card4}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2ele4\" src=\"/FF8/elements/ele{{ele4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card4num1\" src=\"/FF8/smallnum/cardnum{{card4num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card4num2\" src=\"/FF8/smallnum/cardnum{{card4num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card4num3\" src=\"/FF8/smallnum/cardnum{{card4num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card4num4\" src=\"/FF8/smallnum/cardnum{{card4num4}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2overlay4\" ng-click=\"send({payload: '4',topic: 'click'})\" ng-mouseover=\"send({payload: '4',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"{{size4}}\" height=\"{{size4}}\">\n\n<img class=\"p2playercolor5\" src=\"/FF8/cards/card_0_{{color5}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2card5\" src=\"/FF8/cards/card_{{card5}}.png\" width=\"256\" height=\"256\">\n<img class=\"p2ele5\" src=\"/FF8/elements/ele{{ele5}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card5num1\" src=\"/FF8/smallnum/cardnum{{card5num1}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card5num2\" src=\"/FF8/smallnum/cardnum{{card5num2}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card5num3\" src=\"/FF8/smallnum/cardnum{{card5num3}}.png\" width=\"64\" height=\"64\">\n<img class=\"p2card5num4\" src=\"/FF8/smallnum/cardnum{{card5num4}}.png\" width=\"64\" height=\"64\">\n\n<img class=\"p2score\" src=\"/FF8/scorenum/score{{score}}.png\" width=\"96\" height=\"96\">\n<img class=\"p2overlay5\" ng-click=\"send({payload: '5',topic: 'click'})\" ng-mouseover=\"send({payload: '5',topic: 'mouseover'})\" src=\"/FF8/cards/card_0_overlay.png\" width=\"{{size5}}\" height=\"{{size5}}\">\n</div>",
+        "output": "str",
+        "x": 3440,
+        "y": 1860,
+        "wires": [
+            [
+                "5d58e0b9.8afd28"
+            ]
+        ]
+    },
+    {
+        "id": "a08f4a56.08d408",
+        "type": "ui_audio",
+        "z": "96bdce62.9d062",
+        "name": "",
+        "group": "c87d751.00c7f88",
+        "voice": "",
+        "always": false,
+        "x": 4460,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "747c3939.05d17",
+        "type": "ui_audio",
+        "z": "96bdce62.9d062",
+        "name": "",
+        "group": "c87d751.00c7f88",
+        "voice": "",
+        "always": false,
+        "x": 1200,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "2289e91d.6d7786",
+        "type": "ui_audio",
+        "z": "96bdce62.9d062",
+        "name": "",
+        "group": "c87d751.00c7f88",
+        "voice": "",
+        "always": false,
+        "x": 920,
+        "y": 2340,
+        "wires": []
+    },
+    {
+        "id": "893339db.02ff28",
+        "type": "ui_template",
+        "z": "96bdce62.9d062",
+        "group": "c87d751.00c7f88",
+        "name": "music",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "format": "<script>\nvar myAudio = document.getElementById(\"myAudio\");\n\nfunction togglePlay() {\n  return myAudio.paused ? myAudio.play() : myAudio.pause();\n};\n</script>\n<audio id=\"myAudio\" src=\"/FF8/audio/music.wav\" preload=\"auto\" loop></audio>\n<button type=\"button\" class=\"nes-btn is-warning\" onclick=\"togglePlay()\" ng-click=\"send({payload: 'toggle',topic: 'music'})\">MUSIC</button>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 3570,
+        "y": 1180,
         "wires": [
             []
         ]
