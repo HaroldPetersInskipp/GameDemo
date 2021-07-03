@@ -15,7 +15,7 @@ var server = http.createServer(app);
 var settings = {
     httpAdminRoot:"/red",
     httpNodeRoot: "/api",
-    userDir:"/home/pi/.node-red/projects/CardGame/",
+    userDir:"/..",
 	uiHost: "/ui",
 	httpStatic: "/static",
     functionGlobalContext: { },    // enables global context
