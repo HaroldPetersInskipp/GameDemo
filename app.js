@@ -15,9 +15,10 @@ var server = http.createServer(app);
 var settings = {
     httpAdminRoot:"/red",
     httpNodeRoot: "/",
-    userDir:"/home/pi/.node-red/projects/GameDemo",
+    userDir:"app",
 	uiHost: "/ui",
-	httpStatic: "/static",
+	httpStatic: "static",
+	flowFile: 'flows.json',
     functionGlobalContext: { },    // enables global context
 	contextStorage: {
 		default: "file",
