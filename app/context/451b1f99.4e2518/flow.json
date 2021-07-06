@@ -1,14 +1,14 @@
 {
     "banner": "blank",
-    "mod1": "fire1",
-    "mod2": "wind1",
+    "mod1": "water1",
+    "mod2": "blank",
     "mod3": "blank",
-    "mod4": "blank",
-    "mod5": "ice1",
-    "mod6": "light1",
+    "mod4": "earth1",
+    "mod5": "blank",
+    "mod6": "blank",
     "mod7": "blank",
     "mod8": "blank",
-    "mod9": "blank",
+    "mod9": "water1",
     "card1": "0_blank",
     "card1num1": "blank",
     "card1num2": "blank",
@@ -285,6 +285,5 @@
     "samewall": true,
     "plus": true,
     "suddendeath": true,
-    "elemental": true,
-    "cardname": "Jumbo Cactuar"
+    "elemental": true
 }
