@@ -1,11 +1,11 @@
 {
     "banner": "blank",
-    "mod1": "blank",
-    "mod2": "blank",
+    "mod1": "fire1",
+    "mod2": "wind1",
     "mod3": "blank",
     "mod4": "blank",
-    "mod5": "blank",
-    "mod6": "blank",
+    "mod5": "ice1",
+    "mod6": "light1",
     "mod7": "blank",
     "mod8": "blank",
     "mod9": "blank",
@@ -281,9 +281,10 @@
     "p2color5": "blue",
     "p2cardname5": "Vysage",
     "p2Clicked": "1",
-    "same": false,
-    "samewall": false,
-    "plus": false,
-    "suddendeath": false,
-    "elemental": false
+    "same": true,
+    "samewall": true,
+    "plus": true,
+    "suddendeath": true,
+    "elemental": true,
+    "cardname": "Jumbo Cactuar"
 }
