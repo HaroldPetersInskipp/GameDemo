@@ -6,8 +6,8 @@ Install
 
 1. On the command line, navigate (cd) to the **GameDemo** folder
 
-## Running the demo locally
+## Running the GameDemo locally
 Navigate to http://localhost:8000/ui
 
-## Playing the demo on another device
-Navigate to http://XXX.XXX.XXX.XXX:8000/ui where XXX.XXX.XXX.XXX is the IP address of the device running the demo
+## Playing the GameDemo on another device
+Navigate to http://XXX.XXX.XXX.XXX:8000/ui where **XXX.XXX.XXX.XXX** is the IP address of the device running the GameDemo
