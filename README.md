@@ -2,13 +2,9 @@ Install
 ========
 1. Make sure you have an up-to-date version of Node.js installed on your system. If you don't have Node.js installed, you can install it from [here](http://nodejs.org/)
 
-1. Clone this repository
-```git clone https://github.com/HaroldPetersInskipp/GameDemo.git GameDemo```
-```cd GameDemo```
+1. Clone this repository ```git clone https://github.com/HaroldPetersInskipp/GameDemo.git GameDemo```
 
-
-
-1. On the command line, navigate ```cd``` to the **GameDemo** folder
+1. On the command line, navigate to the **GameDemo** folder ```cd GameDemo```
 
 1. On the command line run ```node app.js```
 
