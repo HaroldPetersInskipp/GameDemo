@@ -6,6 +6,8 @@ Install
 
 1. On the command line, navigate (cd) to the **GameDemo** folder
 
+1. Run **node app.js**
+
 ## Running the GameDemo locally
 Navigate to http://localhost:8000/ui
 
