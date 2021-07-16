@@ -1,6 +1,6 @@
 Install
 ========
-1. Make sure you have an up-to-date version of Node.js installed on your system. If you don't have Node.js installed, you can install it from :file_folder:[here](http://nodejs.org/):file_folder:
+1. Make sure you have an up-to-date version of Node.js installed on your system. If you don't have Node.js installed, you can install it from 📁[here](http://nodejs.org/)📁
 
 1. Clone this repository ```git clone https://github.com/HaroldPetersInskipp/GameDemo.git GameDemo```
 or download a zip archive of the contents of the repository and unzip them to a folder called **GameDemo**.
