@@ -1,6 +1,13 @@
-CardGame
+Install
 ========
+1. Make sure you have an up-to-date version of Node.js installed on your system. If you don't have Node.js installed, you can install it from [here](http://nodejs.org/)
+
+1. Clone this repository
+
+1. On the command line, navigate (cd) to the **GameDemo** folder
 
 ## Running the demo locally
+Navigate to http://localhost:8000/ui
 
-1. Make sure you have an up-to-date version of Node.js installed on your system. If you don't have Node.js installed, you can install it from [here](http://nodejs.org/).
+## Playing the demo on another device
+Navigate to http://XXX.XXX.XXX.XXX:8000/ui where XXX.XXX.XXX.XXX is the IP address of the device running the demo
