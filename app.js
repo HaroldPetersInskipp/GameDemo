@@ -44,3 +44,7 @@ server.listen(8000);
 
 // Start the runtime
 RED.start();
+
+setTimeout(function(){
+	console.log("Open your web browser to http://localhost:8000/ui/ to play.")
+},5000);
