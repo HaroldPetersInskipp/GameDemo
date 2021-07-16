@@ -4,7 +4,7 @@ Install
 
 1. Clone this repository
 
-1. On the command line, navigate **cd** to the **GameDemo** folder
+1. On the command line, navigate ```bash **cd** ``` to the **GameDemo** folder
 
 1. On the command line run **node app.js**
 
