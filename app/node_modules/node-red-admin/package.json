@@ -1,0 +1,72 @@
+{
+    "name": "node-red-admin",
+    "version": "0.2.7",
+    "description": "The Node-RED admin command line interface",
+    "homepage": "http://nodered.org",
+    "bugs": {
+        "url": "https://github.com/node-red/node-red-admin/issues/"
+    },
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/node-red/node-red-admin.git"
+    },
+    "main": "lib/index.js",
+    "engines": {
+        "node": ">=8"
+    },
+    "contributors": [
+        {
+            "name": "Nick O'Leary"
+        },
+        {
+            "name": "Anna Thomas"
+        }
+    ],
+    "scripts": {
+        "test": "./node_modules/.bin/mocha "
+    },
+    "dependencies": {
+        "axios": "0.21.1",
+        "bcryptjs": "^2.4.3",
+        "cli-table": "^0.3.4",
+        "minimist": "^1.2.5",
+        "read": "^1.0.7"
+    },
+    "devDependencies": {
+        "grunt": "^1.3.0",
+        "grunt-cli": "^1.3.2",
+        "grunt-contrib-jshint": "^3.0.0",
+        "grunt-simple-mocha": "^0.4.1",
+        "mocha": "^7.1.0",
+        "should": "^13.2.3",
+        "sinon": "1.17.7"
+    },
+    "optionalDependencies": {
+        "bcrypt": "3.0.8"
+    },
+    "bin": {
+        "node-red-admin": "node-red-admin.js"
+    },
+    "mocha": {
+        "spec:": "test/**/*.spec.js",
+        "diff": true,
+        "extension": [
+            "js"
+        ],
+        "opts": false,
+        "package": "./package.json",
+        "reporter": "spec",
+        "slow": 75,
+        "timeout": 2000,
+        "ui": "bdd",
+        "recursive": "true",
+        "watch-files": [
+            "lib/**/*.js",
+            "test/**/*.js"
+        ],
+        "watch-ignore": [
+            "lib/vendor"
+        ]
+    }
+}

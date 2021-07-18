@@ -177,14 +177,14 @@
     "p1color5": "red",
     "p1cardname5": "Elnoyle",
     "clickedInfo": [
-        "0_blank",
+        "5_1",
+        "3",
+        "6",
+        "5",
+        "7",
         "blank",
-        "blank",
-        "blank",
-        "blank",
-        "blank",
-        "blank",
-        ""
+        "red",
+        "Behemoth"
     ],
     "p1Clicked": "3",
     "sfxgate": "on",

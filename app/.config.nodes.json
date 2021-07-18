@@ -450,25 +450,6 @@
             }
         }
     },
-    "node-red-contrib-fan": {
-        "name": "node-red-contrib-fan",
-        "version": "1.0.2",
-        "local": false,
-        "user": false,
-        "nodes": {
-            "rate": {
-                "name": "rate",
-                "types": [
-                    "fan"
-                ],
-                "enabled": true,
-                "local": false,
-                "user": false,
-                "module": "node-red-contrib-fan",
-                "file": "C:\\Users\\Bannd\\Downloads\\CurrentProjects\\RaspberryPi\\GameDemo\\node_modules\\node-red-contrib-fan\\fan.js"
-            }
-        }
-    },
     "node-red-contrib-looptimer-advanced": {
         "name": "node-red-contrib-looptimer-advanced",
         "version": "0.0.3",
@@ -507,44 +488,6 @@
             }
         }
     },
-    "node-red-contrib-random-item": {
-        "name": "node-red-contrib-random-item",
-        "version": "1.0.3",
-        "local": false,
-        "user": false,
-        "nodes": {
-            "random-item": {
-                "name": "random-item",
-                "types": [
-                    "random-item"
-                ],
-                "enabled": true,
-                "local": false,
-                "user": false,
-                "module": "node-red-contrib-random-item",
-                "file": "C:\\Users\\Bannd\\Downloads\\CurrentProjects\\RaspberryPi\\GameDemo\\node_modules\\node-red-contrib-random-item\\random-item.js"
-            }
-        }
-    },
-    "node-red-contrib-string": {
-        "name": "node-red-contrib-string",
-        "version": "1.0.0",
-        "local": false,
-        "user": false,
-        "nodes": {
-            "string": {
-                "name": "string",
-                "types": [
-                    "string"
-                ],
-                "enabled": true,
-                "local": false,
-                "user": false,
-                "module": "node-red-contrib-string",
-                "file": "C:\\Users\\Bannd\\Downloads\\CurrentProjects\\RaspberryPi\\GameDemo\\node_modules\\node-red-contrib-string\\string\\string.js"
-            }
-        }
-    },
     "node-red-contrib-toggle": {
         "name": "node-red-contrib-toggle",
         "version": "0.1.1",
@@ -566,7 +509,7 @@
     },
     "node-red-dashboard": {
         "name": "node-red-dashboard",
-        "version": "2.29.3",
+        "version": "2.30.0",
         "local": false,
         "user": false,
         "nodes": {
