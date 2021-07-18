@@ -1,4 +1,4 @@
-<img src="static/screenshot.png">
+<img src="static/Screenshot.png">
 
 Install
 ========
