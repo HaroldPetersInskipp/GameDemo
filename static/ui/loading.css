@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #333333;
+/*    background-image: ;*/
+}
+div.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div > div {
+	width: 3vw;
+	height: 3vw;
+	border-radius: 100%;
+	margin: 2vw;
+	animation: bounce 3.0s linear infinite;
+}
+.eleIcon1 {
+	animation-delay: 0.0s;
+}
+.eleIcon2 {
+	animation-delay: 0.6s;
+}
+.eleIcon3 {
+	animation-delay: 1.2s;
+}
+.eleIcon4 {
+	animation-delay: 1.8s;
+}
+.eleIcon5 {
+	animation-delay: 2.4s;
+}
+.eleIcon6 {
+	animation-delay: 3.0s;
+}
+.eleIcon7 {
+	animation-delay: 3.4s;
+}
+.eleIcon8 {
+	animation-delay: 4.0s;
+}
+@keyframes bounce {
+	0%, 100% {
+		transform: scale(1);
+	}
+	25% {
+		transform: scale(0.25);
+	}
+	75% {
+		transform: scale(0.75);
+	}
+}
