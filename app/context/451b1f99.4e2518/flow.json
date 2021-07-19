@@ -1,14 +1,14 @@
 {
     "banner": "blank",
-    "mod1": "blank",
+    "mod1": "wind1",
     "mod2": "water1",
-    "mod3": "earth1",
-    "mod4": "holy1",
-    "mod5": "blank",
-    "mod6": "water1",
+    "mod3": "blank",
+    "mod4": "blank",
+    "mod5": "light1",
+    "mod6": "blank",
     "mod7": "blank",
-    "mod8": "water1",
-    "mod9": "light1",
+    "mod8": "holy1",
+    "mod9": "wind1",
     "card1": "0_blank",
     "card1num1": "blank",
     "card1num2": "blank",
@@ -177,17 +177,17 @@
     "p1color5": "red",
     "p1cardname5": "Abyss Worm",
     "clickedInfo": [
-        "2_10",
-        "5",
-        "2",
-        "5",
-        "3",
+        "0_blank",
         "blank",
-        "blue",
-        "Grand Mantis"
+        "blank",
+        "blank",
+        "blank",
+        "blank",
+        "blank",
+        ""
     ],
     "p1Clicked": "4",
-    "sfxgate": "off",
+    "sfxgate": "on",
     "p2savedCards": [
         [
             "5_0",
@@ -280,7 +280,7 @@
     "p2ele5": "blank",
     "p2color5": "blue",
     "p2cardname5": "Geezard",
-    "p2Clicked": "3",
+    "p2Clicked": "1",
     "same": true,
     "samewall": true,
     "plus": true,
@@ -294,6 +294,5 @@
     "occ6": "false",
     "occ7": "false",
     "occ8": "false",
-    "occ9": "false",
-    "cardname": "SAM08G"
+    "occ9": "false"
 }
