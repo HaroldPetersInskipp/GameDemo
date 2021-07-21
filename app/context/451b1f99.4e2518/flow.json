@@ -1,13 +1,13 @@
 {
     "banner": "blank",
-    "mod1": "blank",
-    "mod2": "wind1",
-    "mod3": "ice1",
-    "mod4": "blank",
-    "mod5": "blank",
-    "mod6": "water1",
-    "mod7": "blank",
-    "mod8": "holy1",
+    "mod1": "fire1",
+    "mod2": "blank",
+    "mod3": "blank",
+    "mod4": "wind1",
+    "mod5": "holy1",
+    "mod6": "blank",
+    "mod7": "earth1",
+    "mod8": "fire1",
     "mod9": "blank",
     "card1": "0_blank",
     "card1num1": "blank",
@@ -295,5 +295,5 @@
     "occ7": "false",
     "occ8": "false",
     "occ9": "false",
-    "cardname": ""
+    "cardname": "Squall"
 }
