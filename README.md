@@ -9,6 +9,8 @@ or download a zip archive of the contents of the repository and unzip them to a 
 
 1. On the command line, navigate to the **GameDemo** folder ```cd GameDemo```
 
+1. On the command line run ```npm install```
+
 1. On the command line run ```node app.js```
 
 ## Running the GameDemo locally
