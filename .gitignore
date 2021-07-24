@@ -1,5 +1,3 @@
 *.backup
-app/context/451b1f99.4e2518/flow.json
-app/context/451b1f99.4e2518/flow.json
-app/context/451b1f99.4e2518/flow.json
-app/context/451b1f99.4e2518/flow.json
+app/context/*
+node_modules/
