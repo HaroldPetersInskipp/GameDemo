@@ -16,8 +16,8 @@ or download a zip archive of the contents of the repository and unzip them to a 
 
 1. On the command line run ```node app.js```
 
-## Running the GameDemo locally
+### Running the GameDemo locally
 Navigate to http://localhost:8000/ui
 
-## Playing the GameDemo on another device
+### Playing the GameDemo on another device
 Navigate to http://XXX.XXX.XXX.XXX:8000/ui where **XXX.XXX.XXX.XXX** is the IP address of the device running the GameDemo
