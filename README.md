@@ -21,3 +21,6 @@ Navigate to http://localhost:8000/ui
 
 ### Playing the GameDemo on another device
 Navigate to http://XXX.XXX.XXX.XXX:8000/ui where **XXX.XXX.XXX.XXX** is the IP address of the device running the GameDemo
+
+## Acknowledgements
+A huge thank you to [Mcindus](https://forums.qhimm.com/index.php?action=profile;u=22685) and [Hikashi](https://forums.qhimm.com/index.php?action=profile;u=30986) for their art contributions.
