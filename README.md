@@ -1,4 +1,5 @@
 <img src="static/Screenshot.png">
+
 ## How to play
 The game is played on a three-by-three (3x3) square grid of blank spaces where the cards will be placed. Each card has four numbers (known as ranks) placed in top left corner; each number corresponds to one of the four sides of the card. The ranks range from one to nine, the letter A representing ten and the letter S representing eleven. The top right of the card sometimes has an elemental symbol representing the card's element: Earth, Fire, Water, Poison, Holy, Lightning, Wind, or Ice. Pink cards belong to one player and blue cards belong to the other player.
 
