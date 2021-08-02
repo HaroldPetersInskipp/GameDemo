@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Node-RED Console</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1">
+        <script>
+            const logLength = 250;
+            const ipc = require('electron').ipcRenderer;
+            var list = [];
+            var scrollDown = function() {
+                setTimeout( function() {
+                    window.scrollTo(0,document.body.scrollHeight);
+                }, 50);
+            }
+            var clearList = function() {
+                list = [];
+                document.getElementById("debug").innerHTML = "";
+                ipc.send('clearLogBuffer', "clear");
+            }
+            ipc.on('logBuff', (event, data) => {
+                list = data;
+                document.getElementById("debug").innerHTML = list.join("<br/>");
+            });
+            ipc.on('debugMsg', (event, data) => {
+                list.push(data);
+                if (list.length > logLength) { list.shift(); }
+                document.getElementById("debug").innerHTML = list.join("<br/>");
+                window.scrollTo(0,document.body.scrollHeight);
+            });
+        </script>
+    </head>
+    <body style="margin:0;" onload="scrollDown()" >
+        <font style="font-family:'Helvetica Neue', Arial, Helvetica, sans-serif; font-size:9pt;">
+        <div id="header" style="background-color:#910000; position:fixed; height:16px; width:100%; padding:8px;"><input type="button" style="float:right; margin-right:15px" value="Clear Log" onclick="clearList()";/></div>
+        <div id="debug" style="padding:4px; padding-left:8px; padding-top:34px;"></div>
+        </font>
+    </body>
+</html>

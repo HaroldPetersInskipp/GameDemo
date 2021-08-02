@@ -1,0 +1,108 @@
+{
+    "name": "TripleTriad",
+    "version": "1.0.0",
+    "description": "A card game",
+    "main": "main.js",
+    "NRelectron": {
+        "productName": "TripleTriad",
+        "editable": true,
+        "allowLoadSave": true,
+        "showMap": false,
+        "kioskMode": false,
+        "addNodes": true,
+        "flowFile": "electronflow.json",
+        "start": "dashboard"
+    },
+    "scripts": {
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder",
+        "release": "electron-builder build -p always",
+        "postinstall": "electron-builder install-app-deps",
+        "start": "electron main.js",
+        "test": "echo \" Warning: no test specified \""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dceejay/electron-node-red.git"
+    },
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "electron-is-dev": "^2.0.0",
+        "electron-store": "^8.0.0",
+        "express": "^4.17.1",
+        "node-gyp": "^8.1.0",
+        "node-red": "2.0.4",
+        "node-red-contrib-cycle": "^0.1.4",
+        "node-red-contrib-looptimer-advanced": "^0.0.3",
+        "node-red-contrib-play-audio": "2.5.0",
+        "node-red-contrib-toggle": "^0.1.1",
+        "node-red-dashboard": "2.30.0"
+    },
+    "keywords": [
+        "electron",
+        "quick start",
+        "node-red"
+    ],
+    "author": {
+        "name": "Harold Peters Inskipp",
+        "email": "haroldpetersinskipp@gmail.com"
+    },
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/HaroldPetersInskipp/GameDemo/issues"
+    },
+    "homepage": "https://github.com/HaroldPetersInskipp/GameDemo#readme",
+    "devDependencies": {
+        "electron": "^12.0.13",
+        "electron-builder": "^22.11.7"
+    },
+    "build": {
+        "appId": "com.TripleTriad.node-red",
+        "productName": "TripleTriad",
+        "copyright": "Copyright © 2021 ${author}",
+        "buildDependenciesFromSource": true,
+        "files": [
+            "**/*",
+            {
+                "from": "node_modules/@node-red/nodes/examples",
+                "to": "node_modules/@node-red/nodes/examples"
+            }
+        ],
+        "extraResources": ["./static/FF8/audio/**"],
+        "fileAssociations": [
+            {
+                "ext": "flow",
+                "name": "Flow file"
+            }
+        ],
+        "mac": {
+            "category": "public.app-category.games",
+            "target": "dmg"
+        },
+        "linux": {
+            "target": [
+                "rpm",
+                {
+                    "target": "deb",
+                    "arch": [
+                        "x64",
+                        "armv7l",
+                        "arm64"
+                    ]
+                }
+            ],
+            "synopsis": "A card game",
+            "category": "Game"
+        },
+        "win": {
+            "target": [
+                {
+                    "target": "msi",
+                    "arch": [
+                        "x64"
+                    ]
+                }
+            ]
+        }
+    }
+}

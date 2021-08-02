@@ -1,7 +1,7 @@
 <img src="static/Screenshot.png">
 
 ## Download
-You can download the latest version as a portable electron app from the [Release page](https://github.com/HaroldPetersInskipp/GameDemo/releases).
+You can download the latest version as an electron app from the [Release page](https://github.com/HaroldPetersInskipp/GameDemo/releases).
 
 ## Install from source
 
