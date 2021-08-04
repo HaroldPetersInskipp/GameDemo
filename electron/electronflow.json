@@ -8306,7 +8306,7 @@
     "z": "a7c47e5c.9fda3",
     "name": "css examples",
     "info": "<style>\n    .nes-btn.is-primary {\n        color: #fff;\n        background-color: #000;\n        width: 240px;\n        padding: 1px 1px;\n        font-size: 1.3rem;\n        border: black solid 2px;\n        margin: 1rem 0;\n}\n</style>\n<button type=\"button\" class=\"nes-btn is-primary\" ng-click=\"send({payload: '',topic: ''})\">NEW HAND</button>",
-    "x": 870,
+    "x": 850,
     "y": 160,
     "wires": []
   },
@@ -11117,7 +11117,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3330,
+    "x": 3340,
     "y": 1600,
     "wires": [
       [
@@ -11209,7 +11209,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3330,
+    "x": 3340,
     "y": 1560,
     "wires": [
       [
@@ -14006,6 +14006,40 @@
     ]
   },
   {
+    "id": "ce6fe58f2b6b1b21",
+    "type": "file in",
+    "z": "a7c47e5c.9fda3",
+    "name": "",
+    "filename": "static/FF8/audio/cursor.wav",
+    "format": "",
+    "chunk": false,
+    "sendError": false,
+    "encoding": "none",
+    "allProps": false,
+    "x": 4000,
+    "y": 1680,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "d5dcae1e6651e23f",
+    "type": "file in",
+    "z": "a7c47e5c.9fda3",
+    "name": "",
+    "filename": "static/FF8/audio/special.wav",
+    "format": "",
+    "chunk": false,
+    "sendError": false,
+    "encoding": "none",
+    "allProps": false,
+    "x": 3680,
+    "y": 660,
+    "wires": [
+      []
+    ]
+  },
+  {
     "id": "aeab555646fc4617",
     "type": "file in",
     "z": "a7c47e5c.9fda3",
@@ -14018,6 +14052,57 @@
     "allProps": false,
     "x": 1930,
     "y": 1380,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "a95cac52bf512c1c",
+    "type": "file in",
+    "z": "a7c47e5c.9fda3",
+    "name": "",
+    "filename": "static/FF8/audio/button.wav",
+    "format": "",
+    "chunk": false,
+    "sendError": false,
+    "encoding": "none",
+    "allProps": false,
+    "x": 640,
+    "y": 2340,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "42a4813669e27450",
+    "type": "file in",
+    "z": "a7c47e5c.9fda3",
+    "name": "",
+    "filename": "static/FF8/audio/invalid.wav",
+    "format": "",
+    "chunk": false,
+    "sendError": false,
+    "encoding": "none",
+    "allProps": false,
+    "x": 1140,
+    "y": 1260,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "0a2fa07c8031c540",
+    "type": "file in",
+    "z": "a7c47e5c.9fda3",
+    "name": "",
+    "filename": "static/FF8/audio/cursor.wav",
+    "format": "",
+    "chunk": false,
+    "sendError": false,
+    "encoding": "none",
+    "allProps": false,
+    "x": 1140,
+    "y": 1220,
     "wires": [
       []
     ]

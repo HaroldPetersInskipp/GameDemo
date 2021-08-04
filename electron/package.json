@@ -23,7 +23,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/dceejay/electron-node-red.git"
+        "url": "git+https://github.com/HaroldPetersInskipp/GameDemo.git"
     },
     "dependencies": {
         "bcrypt": "^5.0.1",
@@ -41,7 +41,12 @@
     "keywords": [
         "electron",
         "quick start",
-        "node-red"
+        "node-red",
+		"card",
+		"game",
+		"node",
+		"express",
+		"javascript"
     ],
     "author": {
         "name": "Harold Peters Inskipp",
@@ -63,12 +68,16 @@
         "buildDependenciesFromSource": true,
         "files": [
             "**/*",
+            "build/icon.*",
             {
                 "from": "node_modules/@node-red/nodes/examples",
                 "to": "node_modules/@node-red/nodes/examples"
             }
         ],
-        "extraResources": ["./static/FF8/audio/**"],
+        "extraResources": [
+            "static/FF8/audio/**",
+            "!static/FF8/audio/music.wav"
+        ],
         "fileAssociations": [
             {
                 "ext": "flow",
@@ -102,7 +111,8 @@
                         "x64"
                     ]
                 }
-            ]
+            ],
+            "icon": "build/icon.ico"
         }
     }
 }
