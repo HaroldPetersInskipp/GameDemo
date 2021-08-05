@@ -735,8 +735,19 @@
     "collapse": false
   },
   {
-    "id": "5c373547.5e1874",
+    "id": "e5c05f48ed42defa",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
+    "name": "spacer",
+    "group": "56d44c70.b6847c",
+    "order": 1,
+    "width": 1,
+    "height": 1
+  },
+  {
+    "id": "85e0d7d2d86a2765",
+    "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 3,
@@ -744,8 +755,9 @@
     "height": 1
   },
   {
-    "id": "60b1929b.1df144",
+    "id": "3cb8c209e743739a",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 7,
@@ -753,8 +765,9 @@
     "height": 1
   },
   {
-    "id": "6c6c9fb6.45d268",
+    "id": "643c9ad5b094351e",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 9,
@@ -762,8 +775,9 @@
     "height": 1
   },
   {
-    "id": "9a9880fb.ffc4f",
+    "id": "b4eebf88d194f228",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 10,
@@ -771,8 +785,9 @@
     "height": 1
   },
   {
-    "id": "38f6c8.692c6938",
+    "id": "e57e8f866fb89b34",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 12,
@@ -780,8 +795,9 @@
     "height": 1
   },
   {
-    "id": "ec0ae55c.e6d998",
+    "id": "a8299cbb987c6995",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 14,
@@ -789,8 +805,9 @@
     "height": 1
   },
   {
-    "id": "4c4f7be3.f081e4",
+    "id": "de330b0edf6775b5",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 16,
@@ -798,8 +815,9 @@
     "height": 1
   },
   {
-    "id": "4c76551e.ed81fc",
+    "id": "893b8fce68526721",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 17,
@@ -807,8 +825,9 @@
     "height": 1
   },
   {
-    "id": "2f96fd0a.61f1fa",
+    "id": "1f05319f26c9c3fe",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 18,
@@ -816,8 +835,9 @@
     "height": 1
   },
   {
-    "id": "58cb67ca.4c35a8",
+    "id": "f5c9a63f451aa71e",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 19,
@@ -825,8 +845,9 @@
     "height": 1
   },
   {
-    "id": "a5273e5f.0fb3e",
+    "id": "2eb49c64616852a4",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 20,
@@ -834,8 +855,9 @@
     "height": 1
   },
   {
-    "id": "708013ba.396a7c",
+    "id": "68c12391b41402ab",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 21,
@@ -843,8 +865,9 @@
     "height": 1
   },
   {
-    "id": "a0bc0309.09c7a",
+    "id": "63f1e5b43c1a834e",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 22,
@@ -852,8 +875,9 @@
     "height": 1
   },
   {
-    "id": "546761bc.f8bc88",
+    "id": "da1a3503e8524715",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 23,
@@ -861,8 +885,9 @@
     "height": 1
   },
   {
-    "id": "398db142.a07fbe",
+    "id": "70645b9d96544387",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 24,
@@ -870,8 +895,9 @@
     "height": 1
   },
   {
-    "id": "f742603b.4b1c8",
+    "id": "df95b77b80c65f5e",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 25,
@@ -879,8 +905,9 @@
     "height": 1
   },
   {
-    "id": "1cfb23c9.04b11c",
+    "id": "076cc86321926d67",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 26,
@@ -888,8 +915,9 @@
     "height": 1
   },
   {
-    "id": "cbb96d83.fbcb28",
+    "id": "33a9ba202ae72421",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 27,
@@ -897,8 +925,9 @@
     "height": 1
   },
   {
-    "id": "b21ea2bc.3103f",
+    "id": "e4a26aa18eedbab7",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 28,
@@ -906,8 +935,9 @@
     "height": 1
   },
   {
-    "id": "bef8b61e.355828",
+    "id": "9f54d8eeac2eb12f",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 29,
@@ -915,8 +945,9 @@
     "height": 1
   },
   {
-    "id": "2f464719.14d43",
+    "id": "34135ac0439f2288",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 30,
@@ -924,8 +955,9 @@
     "height": 1
   },
   {
-    "id": "810f7a8d.c486a",
+    "id": "9ed43e8026fb8113",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 31,
@@ -933,8 +965,9 @@
     "height": 1
   },
   {
-    "id": "c520e86d.5b65d8",
+    "id": "d2a89049b3b3e8e7",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 32,
@@ -942,8 +975,9 @@
     "height": 1
   },
   {
-    "id": "7be03bcc.8b0444",
+    "id": "8a7d62a6ce2483f5",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 33,
@@ -951,8 +985,9 @@
     "height": 1
   },
   {
-    "id": "8f9b8b48.1e3b18",
+    "id": "47f5f4ce38973b80",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 34,
@@ -960,8 +995,9 @@
     "height": 1
   },
   {
-    "id": "ed068a11.a63d88",
+    "id": "0cd7b377e8fb7b4d",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 35,
@@ -969,8 +1005,9 @@
     "height": 1
   },
   {
-    "id": "c005b52e.0e53f",
+    "id": "4f3507539728290d",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 36,
@@ -978,8 +1015,9 @@
     "height": 1
   },
   {
-    "id": "cb9fcb7b.7bd5d8",
+    "id": "da1c61bfc737ef56",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 37,
@@ -987,8 +1025,9 @@
     "height": 1
   },
   {
-    "id": "63564e44.e5212",
+    "id": "fd5e06c455c27edd",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 38,
@@ -996,8 +1035,9 @@
     "height": 1
   },
   {
-    "id": "d6aa58e9.b66c18",
+    "id": "61e963279a3700a0",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 39,
@@ -1005,8 +1045,9 @@
     "height": 1
   },
   {
-    "id": "1fbe25a3.c2cc62",
+    "id": "18a5e419da1ec212",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 40,
@@ -1014,8 +1055,9 @@
     "height": 1
   },
   {
-    "id": "d5861a29.8689f",
+    "id": "faf6cf3619429705",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 41,
@@ -1023,8 +1065,9 @@
     "height": 1
   },
   {
-    "id": "44953d89.f926e4",
+    "id": "152ca2e86a92c6e9",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 42,
@@ -1032,8 +1075,9 @@
     "height": 1
   },
   {
-    "id": "63453b9d.7a49ac",
+    "id": "622dd18668665c3a",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 43,
@@ -1041,8 +1085,9 @@
     "height": 1
   },
   {
-    "id": "6364b2f6.b8efbc",
+    "id": "3b999d3d6bba8db1",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 44,
@@ -1050,8 +1095,9 @@
     "height": 1
   },
   {
-    "id": "311dc030.72c028",
+    "id": "a8aff464cc5cfb69",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 45,
@@ -1059,8 +1105,9 @@
     "height": 1
   },
   {
-    "id": "4f5b7b8e.b5fb7c",
+    "id": "38d6b83ce78df571",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 46,
@@ -1068,8 +1115,9 @@
     "height": 1
   },
   {
-    "id": "475b3669.44d8b8",
+    "id": "9a0837b5ec1eddda",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 47,
@@ -1077,8 +1125,9 @@
     "height": 1
   },
   {
-    "id": "a02f956e.9783d8",
+    "id": "d7410586bad8a7b1",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 48,
@@ -1086,8 +1135,9 @@
     "height": 1
   },
   {
-    "id": "a11b7992.ec818",
+    "id": "1a3cb63c905abf13",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 49,
@@ -1095,8 +1145,9 @@
     "height": 1
   },
   {
-    "id": "ca52f18d.5e0f38",
+    "id": "8ef1bca274496435",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 50,
@@ -1104,8 +1155,9 @@
     "height": 1
   },
   {
-    "id": "d59f34cd.2bece",
+    "id": "6beb15cdfa3fd30e",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 51,
@@ -1113,8 +1165,9 @@
     "height": 1
   },
   {
-    "id": "e072f412.c2c8",
+    "id": "39a60b0c3e94a6f9",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 52,
@@ -1122,8 +1175,9 @@
     "height": 1
   },
   {
-    "id": "63ff5687.a5743",
+    "id": "e7330e17f287805d",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 53,
@@ -1131,8 +1185,9 @@
     "height": 1
   },
   {
-    "id": "71e3b51f.6af4fc",
+    "id": "97a358629ecdc864",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 54,
@@ -1140,8 +1195,9 @@
     "height": 1
   },
   {
-    "id": "c815d389.69a17",
+    "id": "7ef4e2f2a68bc8c0",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 55,
@@ -1149,8 +1205,9 @@
     "height": 1
   },
   {
-    "id": "e5a35c6c.489c9",
+    "id": "ae45e1d3e42cb064",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 56,
@@ -1158,8 +1215,9 @@
     "height": 1
   },
   {
-    "id": "2b1bf9d0.ce8b0e",
+    "id": "0af2e870aee489c2",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 57,
@@ -1167,8 +1225,9 @@
     "height": 1
   },
   {
-    "id": "7a6a9ad8.38c22c",
+    "id": "f27d7e0fe4fc7644",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 58,
@@ -1176,8 +1235,9 @@
     "height": 1
   },
   {
-    "id": "54dd8fae.a69e",
+    "id": "38c5f4f455ad0548",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 59,
@@ -1185,8 +1245,9 @@
     "height": 1
   },
   {
-    "id": "29014b85.721a24",
+    "id": "d62d249dbc34b6c8",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 61,
@@ -1194,8 +1255,9 @@
     "height": 1
   },
   {
-    "id": "ecacc77c.89d23",
+    "id": "ab6e36aec0841753",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 62,
@@ -1203,8 +1265,9 @@
     "height": 1
   },
   {
-    "id": "c52f359c.a4095",
+    "id": "76b551b5e0b56eef",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 63,
@@ -1212,8 +1275,9 @@
     "height": 1
   },
   {
-    "id": "9b6c1169.971ee8",
+    "id": "732f5c717215c2e2",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 64,
@@ -1221,8 +1285,9 @@
     "height": 1
   },
   {
-    "id": "303466b.949eb1a",
+    "id": "02b20158c0876b56",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 65,
@@ -1230,8 +1295,9 @@
     "height": 1
   },
   {
-    "id": "988fa48e.27b24",
+    "id": "884349bd50edacf1",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 66,
@@ -1239,8 +1305,9 @@
     "height": 1
   },
   {
-    "id": "daa6d64a.88c768",
+    "id": "f36f0dbcae69530b",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 67,
@@ -1248,75 +1315,83 @@
     "height": 1
   },
   {
-    "id": "f672e65f.471ba8",
+    "id": "26888fcb8c547687",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 68,
-    "width": 13,
+    "width": 14,
     "height": 1
   },
   {
-    "id": "a12615.2399b1e8",
+    "id": "3f69aa21c7596138",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 70,
-    "width": 13,
+    "width": 12,
     "height": 1
   },
   {
-    "id": "d951b83f.3d8598",
+    "id": "7effa43535483b23",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 71,
-    "width": 13,
+    "width": 14,
     "height": 1
   },
   {
-    "id": "dea2bc17.7bc978",
+    "id": "3ed58ff599685475",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 72,
-    "width": 13,
+    "width": 12,
     "height": 1
   },
   {
-    "id": "a4f354d1.616008",
+    "id": "5c7aba7496c9191d",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 73,
-    "width": 13,
+    "width": 14,
     "height": 1
   },
   {
-    "id": "b1c9160c.ec1c58",
+    "id": "e1dd2296e7b5f44c",
     "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 74,
-    "width": 13,
+    "width": 12,
     "height": 1
   },
   {
-    "id": "43fe119c.865508",
+    "id": "b582768352f9ab67",
     "type": "ui_spacer",
-    "name": "spacer",
-    "group": "56d44c70.b6847c",
-    "order": 75,
-    "width": 13,
-    "height": 1
-  },
-  {
-    "id": "8cfe6249.644c8",
-    "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
     "name": "spacer",
     "group": "56d44c70.b6847c",
     "order": 76,
     "width": 13,
+    "height": 1
+  },
+  {
+    "id": "ec5e0d2f6a9db966",
+    "type": "ui_spacer",
+    "z": "a7c47e5c.9fda3",
+    "name": "spacer",
+    "group": "56d44c70.b6847c",
+    "order": 77,
+    "width": 12,
     "height": 1
   },
   {
@@ -8306,7 +8381,7 @@
     "z": "a7c47e5c.9fda3",
     "name": "css examples",
     "info": "<style>\n    .nes-btn.is-primary {\n        color: #fff;\n        background-color: #000;\n        width: 240px;\n        padding: 1px 1px;\n        font-size: 1.3rem;\n        border: black solid 2px;\n        margin: 1rem 0;\n}\n</style>\n<button type=\"button\" class=\"nes-btn is-primary\" ng-click=\"send({payload: '',topic: ''})\">NEW HAND</button>",
-    "x": 850,
+    "x": 870,
     "y": 160,
     "wires": []
   },
@@ -11117,7 +11192,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3340,
+    "x": 3350,
     "y": 1600,
     "wires": [
       [
@@ -11209,7 +11284,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3340,
+    "x": 3350,
     "y": 1560,
     "wires": [
       [
@@ -11419,7 +11494,7 @@
     "z": "a7c47e5c.9fda3",
     "group": "56d44c70.b6847c",
     "name": "css",
-    "order": 1,
+    "order": 75,
     "width": 1,
     "height": 1,
     "format": "<link href=\"https://unpkg.com/nes.css@latest/css/nes.min.css\" rel=\"stylesheet\" />\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=0.3\">\n<meta name=\"apple-mobile-web-app-title\" content=\"TripleTriad\">\n<meta name=\"description\" content=\"A card game popular among SeeD.\">\n<meta name=\"author\" content=\"Inskipp\">\n<style>\n    .nes-btn.is-warning {\n        width: 240px;\n        padding: 1px 1px;\n    }\n    .nes-btn.is-primary {\n        width: 240px;\n        padding: 1px 1px;\n    }\n    .nes-btn.is-error {\n        width: 240px;\n        padding: 1px 1px;\n        background-color: #C52020 !important;\n    }\n    .nes-btn.is-error:hover {\n        width: 240px;\n        padding: 1px 1px;\n        background-color: #B20000 !important;\n    }\n    .mat\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n      width: 768px;\n      height: 768px;\n      max-width: 100%;\n      border-style: solid;\n      border-color: black;\n    }\n    .playercolor1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .playercolor2\n    {\n      position: absolute;\n      top: 0px;\n      left: 256px;\n    }\n    .playercolor3\n    {\n      position: absolute;\n      top: 0px;\n      left: 512px;\n    }\n    .playercolor4\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .playercolor5\n    {\n      position: absolute;\n      top: 256px;\n      left: 256px;\n    }\n    .playercolor6\n    {\n      position: absolute;\n      top: 256px;\n      left: 512px;\n    }\n    .playercolor7\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .playercolor8\n    {\n      position: absolute;\n      top: 512px;\n      left: 256px;\n    }\n    .playercolor9\n    {\n      position: absolute;\n      top: 512px;\n      left: 512px;\n    }\n    .card1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .card2\n    {\n      position: absolute;\n      top: 0px;\n      left: 256px;\n    }\n    .card3\n    {\n      position: absolute;\n      top: 0px;\n      left: 512px;\n    }\n    .card4\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .card5\n    {\n      position: absolute;\n      top: 256px;\n      left: 256px;\n    }\n    .card6\n    {\n      position: absolute;\n      top: 256px;\n      left: 512px;\n    }\n    .card7\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .card8\n    {\n      position: absolute;\n      top: 512px;\n      left: 256px;\n    }\n    .card9\n    {\n      position: absolute;\n      top: 512px;\n      left: 512px;\n    }\n    .ele1\n    {\n      position: absolute;\n      top: 10px;\n      left: 180px;\n    }\n    .ele2\n    {\n      position: absolute;\n      top: 10px;\n      left: 436px;\n    }\n    .ele3\n    {\n      position: absolute;\n      top: 10px;\n      left: 692px;\n    }\n    .ele4\n    {\n      position: absolute;\n      top: 266px;\n      left: 180px;\n    }\n    .ele5\n    {\n      position: absolute;\n      top: 266px;\n      left: 436px;\n    }\n    .ele6\n    {\n      position: absolute;\n      top: 266px;\n      left: 692px;\n    }\n    .ele7\n    {\n      position: absolute;\n      top: 522px;\n      left: 180px;\n    }\n    .ele8\n    {\n      position: absolute;\n      top: 522px;\n      left: 436px;\n    }\n    .ele9\n    {\n      position: absolute;\n      top: 522px;\n      left: 692px;\n    }\n    .card1num1\n    {\n      position: absolute;\n      top: 16px;\n      left: 32px;\n    }\n    .card1num2\n    {\n      position: absolute;\n      top: 48px;\n      left: 48px;\n    }\n    .card1num3\n    {\n      position: absolute;\n      top: 80px;\n      left: 32px;\n    }\n    .card1num4\n    {\n      position: absolute;\n      top: 48px;\n      left: 16px;\n    }\n    .card2num1\n    {\n      position: absolute;\n      top: 16px;\n      left: 288px;\n    }\n    .card2num2\n    {\n      position: absolute;\n      top: 48px;\n      left: 304px;\n    }\n    .card2num3\n    {\n      position: absolute;\n      top: 80px;\n      left: 288px;\n    }\n    .card2num4\n    {\n      position: absolute;\n      top: 48px;\n      left: 272px;\n    }\n    .card3num1\n    {\n      position: absolute;\n      top: 16px;\n      left: 544px;\n    }\n    .card3num2\n    {\n      position: absolute;\n      top: 48px;\n      left: 560px;\n    }\n    .card3num3\n    {\n      position: absolute;\n      top: 80px;\n      left: 544px;\n    }\n    .card3num4\n    {\n      position: absolute;\n      top: 48px;\n      left: 528px;\n    }\n    .card4num1\n    {\n      position: absolute;\n      top: 272px;\n      left: 32px;\n    }\n    .card4num2\n    {\n      position: absolute;\n      top: 304px;\n      left: 48px;\n    }\n    .card4num3\n    {\n      position: absolute;\n      top: 336px;\n      left: 32px;\n    }\n    .card4num4\n    {\n      position: absolute;\n      top: 304px;\n      left: 16px;\n    }\n    .card5num1\n    {\n      position: absolute;\n      top: 272px;\n      left: 288px;\n    }\n    .card5num2\n    {\n      position: absolute;\n      top: 304px;\n      left: 304px;\n    }\n    .card5num3\n    {\n      position: absolute;\n      top: 336px;\n      left: 288px;\n    }\n    .card5num4\n    {\n      position: absolute;\n      top: 304px;\n      left: 272px;\n    }\n    .card6num1\n    {\n      position: absolute;\n      top: 272px;\n      left: 544px;\n    }\n    .card6num2\n    {\n      position: absolute;\n      top: 304px;\n      left: 560px;\n    }\n    .card6num3\n    {\n      position: absolute;\n      top: 336px;\n      left: 544px;\n    }\n    .card6num4\n    {\n      position: absolute;\n      top: 304px;\n      left: 528px;\n    }\n    .card7num1\n    {\n      position: absolute;\n      top: 528px;\n      left: 32px;\n    }\n    .card7num2\n    {\n      position: absolute;\n      top: 560px;\n      left: 48px;\n    }\n    .card7num3\n    {\n      position: absolute;\n      top: 592px;\n      left: 32px;\n    }\n    .card7num4\n    {\n      position: absolute;\n      top: 560px;\n      left: 16px;\n    }\n    .card8num1\n    {\n      position: absolute;\n      top: 528px;\n      left: 288px;\n    }\n    .card8num2\n    {\n      position: absolute;\n      top: 560px;\n      left: 304px;\n    }\n    .card8num3\n    {\n      position: absolute;\n      top: 592px;\n      left: 288px;\n    }\n    .card8num4\n    {\n      position: absolute;\n      top: 560px;\n      left: 272px;\n    }\n    .card9num1\n    {\n      position: absolute;\n      top: 528px;\n      left: 544px;\n    }\n    .card9num2\n    {\n      position: absolute;\n      top: 560px;\n      left: 560px;\n    }\n    .card9num3\n    {\n      position: absolute;\n      top: 592px;\n      left: 544px;\n    }\n    .card9num4\n    {\n      position: absolute;\n      top: 560px;\n      left: 528px;\n    }\n    .mod1\n    {\n      position: absolute;\n      top: 96px;\n      left: 96px;\n      opacity: 50%;\n    }\n    .mod2\n    {\n      position: absolute;\n      top: 96px;\n      left: 352px;\n      opacity: 50%;\n    }\n    .mod3\n    {\n      position: absolute;\n      top: 96px;\n      left: 608px;\n      opacity: 50%;\n    }\n    .mod4\n    {\n      position: absolute;\n      top: 352px;\n      left: 96px;\n      opacity: 50%;\n    }\n    .mod5\n    {\n      position: absolute;\n      top: 352px;\n      left: 352px;\n      opacity: 50%;\n    }\n    .mod6\n    {\n      position: absolute;\n      top: 352px;\n      left: 608px;\n      opacity: 50%;\n    }\n    .mod7\n    {\n      position: absolute;\n      top: 608px;\n      left: 96px;\n      opacity: 50%;\n    }\n    .mod8\n    {\n      position: absolute;\n      top: 608px;\n      left: 352px;\n      opacity: 50%;\n    }\n    .mod9\n    {\n      position: absolute;\n      top: 608px;\n      left: 608px;\n      opacity: 50%;\n    }\n    .boardoverlay1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n      z-index: 1;\n    }\n    .boardoverlay2\n    {\n      position: absolute;\n      top: 0px;\n      left: 256px;\n      z-index: 1;\n    }\n    .boardoverlay3\n    {\n      position: absolute;\n      top: 0px;\n      left: 512px;\n      z-index: 1;\n    }\n    .boardoverlay4\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n      z-index: 1;\n    }\n    .boardoverlay5\n    {\n      position: absolute;\n      top: 256px;\n      left: 256px;\n      z-index: 1;\n    }\n    .boardoverlay6\n    {\n      position: absolute;\n      top: 256px;\n      left: 512px;\n      z-index: 1;\n    }\n    .boardoverlay7\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n      z-index: 1;\n    }\n    .boardoverlay8\n    {\n      position: absolute;\n      top: 512px;\n      left: 256px;\n      z-index: 1;\n    }\n    .boardoverlay9\n    {\n      position: absolute;\n      top: 512px;\n      left: 512px;\n      z-index: 1;\n    }\n    .banners\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n      max-width: 100%;\n    }\n    .p1playercolor1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .p1playercolor2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n    }\n    .p1playercolor3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .p1playercolor4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n    }\n    .p1playercolor5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .p1card1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .p1card2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n    }\n    .p1card3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .p1card4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n    }\n    .p1card5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .p1ele1\n    {\n      position: absolute;\n      top: 10px;\n      left: 180px;\n    }\n    .p1ele2\n    {\n      position: absolute;\n      top: 138px;\n      left: 180px;\n    }\n    .p1ele3\n    {\n      position: absolute;\n      top: 266px;\n      left: 180px;\n    }\n    .p1ele4\n    {\n      position: absolute;\n      top: 394px;\n      left: 180px;\n    }\n    .p1ele5\n    {\n      position: absolute;\n      top: 522px;\n      left: 180px;\n    }\n    .p1card1num1\n    {\n      position: absolute;\n      top: 16px;\n      left: 32px;\n    }\n    .p1card1num2\n    {\n      position: absolute;\n      top: 48px;\n      left: 48px;\n    }\n    .p1card1num3\n    {\n      position: absolute;\n      top: 80px;\n      left: 32px;\n    }\n    .p1card1num4\n    {\n      position: absolute;\n      top: 48px;\n      left: 16px;\n    }\n    .p1card2num1\n    {\n      position: absolute;\n      top: 144px;\n      left: 32px;\n    }\n    .p1card2num2\n    {\n      position: absolute;\n      top: 176px;\n      left: 48px;\n    }\n    .p1card2num3\n    {\n      position: absolute;\n      top: 208px;\n      left: 32px;\n    }\n    .p1card2num4\n    {\n      position: absolute;\n      top: 176px;\n      left: 16px;\n    }\n    .p1card3num1\n    {\n      position: absolute;\n      top: 272px;\n      left: 32px;\n    }\n    .p1card3num2\n    {\n      position: absolute;\n      top: 304px;\n      left: 48px;\n    }\n    .p1card3num3\n    {\n      position: absolute;\n      top: 336px;\n      left: 32px;\n    }\n    .p1card3num4\n    {\n      position: absolute;\n      top: 304px;\n      left: 16px;\n    }\n    .p1card4num1\n    {\n      position: absolute;\n      top: 400px;\n      left: 32px;\n    }\n    .p1card4num2\n    {\n      position: absolute;\n      top: 432px;\n      left: 48px;\n    }\n    .p1card4num3\n    {\n      position: absolute;\n      top: 464px;\n      left: 32px;\n    }\n    .p1card4num4\n    {\n      position: absolute;\n      top: 432px;\n      left: 16px;\n    }\n    .p1card5num1\n    {\n      position: absolute;\n      top: 528px;\n      left: 32px;\n    }\n    .p1card5num2\n    {\n      position: absolute;\n      top: 560px;\n      left: 48px;\n    }\n    .p1card5num3\n    {\n      position: absolute;\n      top: 592px;\n      left: 32px;\n    }\n    .p1card5num4\n    {\n      position: absolute;\n      top: 560px;\n      left: 16px;\n    }\n    .p1score\n    {\n      position: absolute;\n      top: 720px;\n      left: 80px;\n    }\n    .p1overlay1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n      z-index: 1;\n    }\n    .p1overlay2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n      z-index: 2;\n    }\n    .p1overlay3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n      z-index: 3;\n    }\n    .p1overlay4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n      z-index: 4;\n    }\n    .p1overlay5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n      z-index: 5;\n    }\n    .p2playercolor1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .p2playercolor2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n    }\n    .p2playercolor3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .p2playercolor4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n    }\n    .p2playercolor5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .p2card1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n    }\n    .p2card2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n    }\n    .p2card3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n    }\n    .p2card4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n    }\n    .p2card5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n    }\n    .p2ele1\n    {\n      position: absolute;\n      top: 10px;\n      left: 180px;\n    }\n    .p2ele2\n    {\n      position: absolute;\n      top: 138px;\n      left: 180px;\n    }\n    .p2ele3\n    {\n      position: absolute;\n      top: 266px;\n      left: 180px;\n    }\n    .p2ele4\n    {\n      position: absolute;\n      top: 394px;\n      left: 180px;\n    }\n    .p2ele5\n    {\n      position: absolute;\n      top: 522px;\n      left: 180px;\n    }\n    .p2card1num1\n    {\n      position: absolute;\n      top: 16px;\n      left: 32px;\n    }\n    .p2card1num2\n    {\n      position: absolute;\n      top: 48px;\n      left: 48px;\n    }\n    .p2card1num3\n    {\n      position: absolute;\n      top: 80px;\n      left: 32px;\n    }\n    .p2card1num4\n    {\n      position: absolute;\n      top: 48px;\n      left: 16px;\n    }\n    .p2card2num1\n    {\n      position: absolute;\n      top: 144px;\n      left: 32px;\n    }\n    .p2card2num2\n    {\n      position: absolute;\n      top: 176px;\n      left: 48px;\n    }\n    .p2card2num3\n    {\n      position: absolute;\n      top: 208px;\n      left: 32px;\n    }\n    .p2card2num4\n    {\n      position: absolute;\n      top: 176px;\n      left: 16px;\n    }\n    .p2card3num1\n    {\n      position: absolute;\n      top: 272px;\n      left: 32px;\n    }\n    .p2card3num2\n    {\n      position: absolute;\n      top: 304px;\n      left: 48px;\n    }\n    .p2card3num3\n    {\n      position: absolute;\n      top: 336px;\n      left: 32px;\n    }\n    .p2card3num4\n    {\n      position: absolute;\n      top: 304px;\n      left: 16px;\n    }\n    .p2card4num1\n    {\n      position: absolute;\n      top: 400px;\n      left: 32px;\n    }\n    .p2card4num2\n    {\n      position: absolute;\n      top: 432px;\n      left: 48px;\n    }\n    .p2card4num3\n    {\n      position: absolute;\n      top: 464px;\n      left: 32px;\n    }\n    .p2card4num4\n    {\n      position: absolute;\n      top: 432px;\n      left: 16px;\n    }\n    .p2card5num1\n    {\n      position: absolute;\n      top: 528px;\n      left: 32px;\n    }\n    .p2card5num2\n    {\n      position: absolute;\n      top: 560px;\n      left: 48px;\n    }\n    .p2card5num3\n    {\n      position: absolute;\n      top: 592px;\n      left: 32px;\n    }\n    .p2card5num4\n    {\n      position: absolute;\n      top: 560px;\n      left: 16px;\n    }\n    .p2score\n    {\n      position: absolute;\n      top: 720px;\n      left: 80px;\n    }\n    .p2overlay1\n    {\n      position: absolute;\n      top: 0px;\n      left: 0px;\n      z-index: 1;\n    }\n    .p2overlay2\n    {\n      position: absolute;\n      top: 128px;\n      left: 0px;\n      z-index: 2;\n    }\n    .p2overlay3\n    {\n      position: absolute;\n      top: 256px;\n      left: 0px;\n      z-index: 3;\n    }\n    .p2overlay4\n    {\n      position: absolute;\n      top: 384px;\n      left: 0px;\n      z-index: 4;\n    }\n    .p2overlay5\n    {\n      position: absolute;\n      top: 512px;\n      left: 0px;\n      z-index: 5;\n    }\n</style>",
@@ -14006,40 +14081,6 @@
     ]
   },
   {
-    "id": "ce6fe58f2b6b1b21",
-    "type": "file in",
-    "z": "a7c47e5c.9fda3",
-    "name": "",
-    "filename": "static/FF8/audio/cursor.wav",
-    "format": "",
-    "chunk": false,
-    "sendError": false,
-    "encoding": "none",
-    "allProps": false,
-    "x": 4000,
-    "y": 1680,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "d5dcae1e6651e23f",
-    "type": "file in",
-    "z": "a7c47e5c.9fda3",
-    "name": "",
-    "filename": "static/FF8/audio/special.wav",
-    "format": "",
-    "chunk": false,
-    "sendError": false,
-    "encoding": "none",
-    "allProps": false,
-    "x": 3680,
-    "y": 660,
-    "wires": [
-      []
-    ]
-  },
-  {
     "id": "aeab555646fc4617",
     "type": "file in",
     "z": "a7c47e5c.9fda3",
@@ -14052,57 +14093,6 @@
     "allProps": false,
     "x": 1930,
     "y": 1380,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "a95cac52bf512c1c",
-    "type": "file in",
-    "z": "a7c47e5c.9fda3",
-    "name": "",
-    "filename": "static/FF8/audio/button.wav",
-    "format": "",
-    "chunk": false,
-    "sendError": false,
-    "encoding": "none",
-    "allProps": false,
-    "x": 640,
-    "y": 2340,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "42a4813669e27450",
-    "type": "file in",
-    "z": "a7c47e5c.9fda3",
-    "name": "",
-    "filename": "static/FF8/audio/invalid.wav",
-    "format": "",
-    "chunk": false,
-    "sendError": false,
-    "encoding": "none",
-    "allProps": false,
-    "x": 1140,
-    "y": 1260,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "0a2fa07c8031c540",
-    "type": "file in",
-    "z": "a7c47e5c.9fda3",
-    "name": "",
-    "filename": "static/FF8/audio/cursor.wav",
-    "format": "",
-    "chunk": false,
-    "sendError": false,
-    "encoding": "none",
-    "allProps": false,
-    "x": 1140,
-    "y": 1220,
     "wires": [
       []
     ]
