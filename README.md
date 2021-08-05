@@ -12,7 +12,7 @@ A draw occurs if at the end the player and the opponent possess equal numbers of
 ## Download
 You can download the latest version as an electron app from the [Release page](https://github.com/HaroldPetersInskipp/GameDemo/releases).
 
-## Install from source
+## Install from source and run with node
 
 1. Make sure you have an up-to-date version of Node.js installed on your system. If you don't have Node.js installed, you can install it from [here](http://nodejs.org/)
 
@@ -28,8 +28,8 @@ or download a zip archive of the contents of the repository and unzip them to a 
 ### Running the GameDemo locally
 Navigate to http://localhost:8000/ui
 
-### Playing the GameDemo on another device
-Navigate to http://XXX.XXX.XXX.XXX:8000/ui where **XXX.XXX.XXX.XXX** is the IP address of the device running the GameDemo
+### Playing the GameDemo from another device
+Navigate to http://XXX.XXX.XXX.XXX:8000/ui where **XXX.XXX.XXX.XXX** is the IP address of the device running the GameDemo in node.
 
 ## Acknowledgements
 A huge thank you to [Mcindus](https://forums.qhimm.com/index.php?action=profile;u=22685) and [Hikashi](https://forums.qhimm.com/index.php?action=profile;u=30986) for their art contributions.
