@@ -1,7 +1,7 @@
 {
     "node-red": {
         "name": "node-red",
-        "version": "1.3.6-git",
+        "version": "2.0.5-git",
         "local": false,
         "user": false,
         "nodes": {
@@ -181,6 +181,17 @@
                 "user": false,
                 "module": "node-red",
                 "file": "C:\\Users\\Bannd\\Downloads\\CurrentProjects\\RaspberryPi\\GameDemo\\node_modules\\@node-red\\nodes\\core\\function\\90-exec.js"
+            },
+            "rbe": {
+                "name": "rbe",
+                "types": [
+                    "rbe"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Bannd\\Downloads\\CurrentProjects\\RaspberryPi\\GameDemo\\node_modules\\@node-red\\nodes\\core\\function\\rbe.js"
             },
             "tls": {
                 "name": "tls",
