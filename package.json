@@ -224,7 +224,6 @@
     "node-red-contrib-play-audio": "^2.5.0",
     "node-red-contrib-toggle": "^0.1.1",
     "node-red-dashboard": "^2.30.0",
-    "node-red-node-rbe": "^0.5.0",
     "node-red-node-tail": "^0.3.1",
     "nopt": "^5.0.0",
     "npm-bundled": "^1.1.2",
@@ -353,6 +352,5 @@
     "card",
     "free",
     "multiplatform"
-  ],
-  "devDependencies": {}
+  ]
 }
