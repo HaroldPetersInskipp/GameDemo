@@ -13,8 +13,8 @@
   },
   "node-red": {
     "settings": {
-      "flowFile": "flow.json",
-      "credentialsFile": "flow_cred.json"
+      "flowFile": "electronflow.json",
+      "credentialsFile": "electronflow_cred.json"
     }
   },
   "main": "app.js",

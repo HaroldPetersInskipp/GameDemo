@@ -9,7 +9,7 @@ if (pkg.hasOwnProperty("dependencies")) { packages = pkg["dependencies"] }
 // Some settings you can edit if you don't set them in package.json
 //console.log(options)
 const editable = options.editable || true;      // set this to false to create a run only application - no editor/no console
-const allowLoadSave = options.allowLoadSave || false; // set to true to allow import and export of flow file
+const allowLoadSave = options.allowLoadSave || true; // set to true to allow import and export of flow file
 let showMap = options.showMap || false;       // set to true to add Worldmap to the menu
 const kioskMode = options.kioskMode || false;   // set to true to start in kiosk mode
 const addNodes = options.addNodes || false;      // set to false to block installing extra nodes
@@ -138,7 +138,7 @@ ipc.on('clearLogBuffer', function() { logBuffer = []; });
 
 // Create the settings object - see default settings.js file for other options
 var settings = {
-    uiHost: "localhost",    // only allow local connections, remove if you want to allow external access
+    uiHost: "/ui",    // only allow local connections, remove if you want to allow external access
     uiPort: listenPort,
     httpAdminRoot: "/red",  // set to false to disable editor and deploy
     httpNodeRoot: "/",
