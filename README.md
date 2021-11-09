@@ -1,3 +1,6 @@
+## Download
+You can download the latest version as an electron app from the [Release page](https://github.com/HaroldPetersInskipp/GameDemo/releases).
+
 <img src="static/Screenshot.png">
 
 ## How to play
@@ -9,8 +12,7 @@ To win, a majority of the total ten cards played (including the one card that is
 
 A draw occurs if at the end the player and the opponent possess equal numbers of cards in their color. Depending on alternate card rules, this can be defined by a sudden death scenario where the game continues until a winner is defined.
 
-## Download
-You can download the latest version as an electron app from the [Release page](https://github.com/HaroldPetersInskipp/GameDemo/releases).
+<img src="static/Screenshot2.png">
 
 ## Install from source and run with node
 
@@ -29,7 +31,7 @@ or download a zip archive of the contents of the repository and unzip them to a 
 Navigate to http://localhost:8000/ui
 
 ### Playing the GameDemo from another device
-Navigate to http://XXX.XXX.XXX.XXX:8000/ui where **XXX.XXX.XXX.XXX** is the IP address of the device running the GameDemo in node.
+Navigate to http://XXX.XXX.XXX.XXX:8000/ui where **XXX.XXX.XXX.XXX** is the IP address of the device running the GameDemo server.
 
 ## Acknowledgements
 A huge thank you to [Mcindus](https://forums.qhimm.com/index.php?action=profile;u=22685) and [Hikashi](https://forums.qhimm.com/index.php?action=profile;u=30986) for their art contributions.
