@@ -16,22 +16,25 @@ A draw occurs if at the end the player and the opponent possess equal numbers of
 
 ## Install from source and run with node
 
-1. Make sure you have an up-to-date version of Node.js installed on your system. If you don't have Node.js installed, you can install it from [here](http://nodejs.org/)
+Follow these steps to install GameDemo from the source and run it using Node.js:
 
-1. Clone this repository ```git clone https://github.com/HaroldPetersInskipp/GameDemo.git GameDemo```
-or download a zip archive of the contents of the repository and unzip them to a folder called **GameDemo**.
+1. Make sure you have an up-to-date version of Node.js installed on your system. If not, you can install it from [here](http://nodejs.org/)
 
-1. On the command line, navigate to the **GameDemo** folder ```cd GameDemo```
+2. Clone this repository ```git clone https://github.com/HaroldPetersInskipp/GameDemo.git GameDemo```
 
-1. On the command line run ```npm install```
+   Alternatively, download a zip archive of the repository and unzip its contents into a folder named **GameDemo**.
 
-1. On the command line run ```node app.js```
+3. Open your terminal/command line and navigate to the GameDemo folder using: ```cd GameDemo```
+
+4. Run the following command in the terminal/command line: ```npm install```
+
+5. Start the GameDemo server with: ```node app.js``` in the terminal/command line.
 
 ### Running the GameDemo locally
-Navigate to http://localhost:8000/ui
+Open your browser and go to http://localhost:8000/ui
 
 ### Playing the GameDemo from another device
-Navigate to http://XXX.XXX.XXX.XXX:8000/ui where **XXX.XXX.XXX.XXX** is the IP address of the device running the GameDemo server.
+Access http://XXX.XXX.XXX.XXX:8000/ui, replacing **XXX.XXX.XXX.XXX** with the IP address of the device running the GameDemo server.
 
 ## Acknowledgements
 A huge thank you to [Mcindus](https://forums.qhimm.com/index.php?action=profile;u=22685) and [Hikashi](https://forums.qhimm.com/index.php?action=profile;u=30986) for their art contributions.
